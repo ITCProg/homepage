@@ -1,0 +1,45 @@
+
+#ITC-slide {
+    background-color: #000;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+    #ITC-slide h1 {
+        color: #00ffff;
+    }
+
+    #ITC-slide p {
+        color: #FFF;
+    }
+
+.carousel {
+    margin: auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-item .img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+    height: auto;
+}
+
+    .carousel-item a {
+        display: block;
+        width: 100%;
+    }
+
+    .carousel-item .show-image {
+        display: block;
+        width: 100%;
+    }

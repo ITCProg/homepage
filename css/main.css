@@ -1,0 +1,138 @@
+
+:root {
+    --white:rgb(255, 252, 250);
+    --primary-color: #46d4d4;
+    --primary-color-light: #7df0f0;
+    --primary-color-light2: #a1d1cd;
+    --primary-color-dark: #138a8a;
+    --secondary-color: #db822e;
+    --secondary-color-light: #ffb773;
+    --secondary-color-light2: #f5eae0;
+    --secondary-color-dark: #b85a02;
+    --secondary-color-dark2: rgb(34, 30, 58);
+}
+/*========================ジャンボトロン=====================================*/
+
+#main-ritaisai-jumbo,
+#main-cg-jumbo,
+#main-dtm-jumbo,
+#main-prog-jumbo,
+#main-mv-jumbo{
+    background-color:rgba(0,0,0,0.5);
+    background-size: cover;
+    background-position: center 60%;
+    background-blend-mode:darken;
+}
+#main-ritaisai-jumbo {
+    background-image: url("../images/link-header.png");
+}
+#main-cg-jumbo {
+    background-image: url("../images/CG-card2.png");
+}
+#main-dtm-jumbo {
+    background-image: url("../images/DTM-card.png");
+}
+#main-prog-jumbo {
+    background-image: url("../images/prog-card.png");
+}
+#main-mv-jumbo {
+    background-image: url("../images/MV-card.png");
+}
+
+#main-ritaisai-jumbo p,
+#main-cg-jumbo p,
+#main-dtm-jumbo p,
+#main-prog-jumbo p,
+#main-mv-jumbo p{
+    color: white;
+}
+
+
+
+/*==============================ジャンボトロン終わり===============================*/
+
+#itc-title{
+    padding:0;
+    padding-top:100px;
+    padding-bottom:100px;
+    color:white;
+    background: linear-gradient( 180deg,  rgba(219, 130, 46, 0.9),rgba(22, 110, 66, 0.8),rgba(70, 212, 212,0.7)), url("../images/carousel3.jfif");
+    background-position: 50% 50%; /* 画像中央を起点に表示 */
+    background-size: cover; /* 縦横比を維持しながら全体を覆うように表示 */
+    font-family: 'DotGothic16', sans-serif;
+    -webkit-filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 1));
+    -moz-filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 1));
+    -ms-filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 1));
+    filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 1));
+}
+
+#itc-title img {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 50px;
+}
+.title-text{
+    font-size: 100px;
+}
+.title-text span{
+    display: block;
+}
+.title-text-sub{
+    font-size: 30px;
+}
+
+hr {
+	background-color: #fff;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient( 135deg,  rgba(219, 130, 46, 1.0),rgba(219, 186, 55,1.0));
+}
+.btn-itc{
+    background:  linear-gradient( 90deg,  rgb(70, 212, 212),rgb(116, 217, 235));
+    color:black;
+    font-weight: 20px;
+}
+
+
+.card{
+    background:var(--secondary-color-light2);
+    border:0px solid;
+}
+
+.acccordion-hed{
+    background-color: var(--primary-color-dark);
+}
+
+.jumbo-sub{
+    color:var(--secondary-color-light);
+}
+.jumbo-main{
+    font-size: 65px;
+    color:var(--primary-color-light);
+}
+
+.badge-itc{
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+.itc-board{
+    padding:6px;
+    background: linear-gradient(180deg,
+    rgb(15, 156, 156),
+    rgb(10, 117, 121));
+}
+#introduction-prologue{
+    position:relative;
+}
+#introduction-prologue p{
+    color:white;
+}
+#particles-js{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}

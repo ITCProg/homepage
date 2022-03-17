@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="../src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../favicon.ico">
+
+    <title>はじめに - 情報技術クラブ ITC</title>
+</head>
+<body>
+    <script type="text/javascript">header('../');</script>
+
+    <!-- メインコンテンツ-->
+    <!-- ページの上にある画像と半透明の文字-->
+    <div id="cg-headline">
+        <div class="headline-title">
+            <h2>CG</h2>
+        </div>
+    </div>
+
+    <section class="wrapper m-3">
+        <div id="cg-introduction">
+            <p>情報技術クラブITCのCG部ではパソコンソフトでイラスト制作をしています。</p>
+            <p>ほとんどの人はペンタブレットを触ったことがないので、初心者や絵に自信のない人でも大丈夫です！</p>
+            <p>また、ペンタブレットを必ず買う必要は全くないです。<strong>ipadやアナログでも大丈夫です。</strong></p>
+            <p>CG部では初心者講習を夏休みまで行っています。夏休みのコミックマーケットに向けて練習しています。</p>
+            <h3>初心者講習の内容</h3>
+            <p>初心者講習では大まかに以下のことを教えています。(過去の内容なので急に変更になる可能性があります)</p>
+
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">タイトル</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1.</td><td>Clip studio paintのダウンロード・ペンタブレットを試してみる</td></tr>
+                    <tr><td>2.</td><td>レイヤーの使い方・クリッピング</td></tr>
+                    <tr><td>3.</td><td>加算や乗算などのレイヤーモードの使い方 </td></tr>
+                    <tr><td>4.</td><td>素材の使い方</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="tutorial-guide">
+            <guide prev="" home="../cg-forBeginners.html" next="beginner2.html" v-bind:showprev="false" v-bind:shownext="true" ></guide>
+        </div>
+    </section>
+
+    <script type="text/javascript">footer('../');</script>
+    <script type="text/javascript"  src="../src/tutorial-guide.js"></script> 
+
+</body>
+</html>

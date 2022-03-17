@@ -1,0 +1,37 @@
+
+{
+    "data":[
+        {
+            "year":2020,
+            "url":"history/history2020.json"
+        },
+        {
+            "year":2019,
+            "url":"history/history2019.json"
+        },
+        {
+            "year":2018,
+            "url":"history/history2018.json"
+        },
+        {
+            "year":2017,
+            "url":"history/history2017.json"
+        },
+        {
+            "year":2016,
+            "url":"history/history2016.json"
+        },
+        {
+            "year":2015,
+            "url":"history/history2015.json"
+        },
+        {
+            "year":2014,
+            "url":"history/history2014.json"
+        },
+        {
+            "year":2013,
+            "url":"history/history2013.json"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+
+@media screen and (max-width:480px) {
+    /*画面幅が480pxまでの時*/
+    #DTM-link-embed {
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width:781px) {
+    /*画面幅が781px以上の時*/
+    #dTM-link-embed {
+        margin: 35px;
+    }
+}

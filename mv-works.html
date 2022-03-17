@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/mv-works.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&display=swap" rel="stylesheet">
+
+    <title>MV部作品集 - 情報技術クラブ ITC</title>
+</head>
+
+<body>
+    <div id="top"></div>
+    <script type="text/javascript">gotoTop('');</script>
+    <script type="text/javascript">header('');</script>
+    <!-- メインコンテンツ-->
+    <div id="movie-headline">
+        <div class="headline-title">
+            MV
+        </div>
+    </div>
+
+    <section class="wrapper my-5">
+        <div id="movie-introduction">
+            <h2>MV部作品集</h2>
+            <!-- 説明 -->
+        </div>
+    </section>
+
+    <section class="wrapper-wide">
+        <div id="movie-works">
+            <h3 class="p-1">2021年度</h3>
+            <div class="container">
+                <div class="row justify-content-around">
+                    <template v-for="item in items.items2021">
+                        <div class="card col-11 col-lg-5">
+                            <div class="card-body">
+                                <h4 class="title">「{{item.title}}」</h4>
+                                <p class="description" v-if="item.description">{{item.description}}</p>
+                                <div class="authors row">
+                                    <p>作者：　　</p>
+                                    <div>
+                                        <p v-for="author in item.authors">{{author}}</p>
+                                    </div>
+                                </div>
+                                <div class="subauthors row" v-if="item.subauthors">
+                                    <p>協力者：　</p>
+                                    <div>
+                                        <p v-for="subauthor in item.subauthors">{{subauthor}}</p>
+                                    </div>
+                                </div>
+                                <div class="embed embed-responsive embed-responsive-16by9" v-html="item.embed"></div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">footer('');</script>
+    <script type="text/javascript" src="src/mv-works.js"></script>
+
+</body>
+
+</html>

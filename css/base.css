@@ -1,0 +1,379 @@
+﻿@charset "UTF-8";
+
+:root {
+    --white:rgb(255, 252, 250);
+    --primary-color: #46d4d4;
+    --primary-color-light: #7df0f0;
+    --primary-color-dark: #138a8a;
+    --secondary-color: #db822e;
+    --secondary-color-light: #ffb773;
+    --secondary-color-dark: #b85a02;
+    --secondary-color-dark2:rgb(129, 62, 0);
+}
+
+/*=====================================ヘッダー*/
+
+.hed {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:10000;
+    background-color: var(--white);
+    color:black;
+    -webkit-box-shadow: 0 5px 30px rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 30px rgb(0 0 0 / 10%);
+}
+@media screen and (max-width:1000px) {
+    /*画面幅が787pxまでの時*/
+    .hed {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width:1001px) {
+    /*画面幅が788px以上の時*/
+    .hed {
+        font-size: 1.3rem;
+    }
+}
+.nav-icon{
+    font-size:30px;
+}
+
+#nav-full{
+    position:relative;
+}
+
+.nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.nav-item a{
+    color:black;
+}
+
+.nav-item a:hover{
+    color:var(--secondary-color);
+}
+
+.hed .dropdown-item{
+    color:black;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.nav-btn{
+    background-color: var(--secondary-color);
+}
+.nav-item{
+    margin:0;
+    padding-right:5px;
+    padding-left:5px;
+    position: relative;
+    background-color: var(--white);
+}
+.nav-item :hover{
+    background-color:rgb(245, 245, 245);
+}
+
+.nav-item .fas{
+    color:var(--secondary-color)
+}
+
+/*
+新しくできた部門をアピール
+*/
+.nav-new{
+    transform: rotate(30deg);
+    position:absolute;
+    top: 0;
+    right:0;
+    font-size: 10px;
+    color: rgb(218, 204, 21);
+    text-shadow    : 
+         1px  1px 1px #990000,
+        -1px  1px 1px #990000,
+         1px -1px 1px #990000,
+        -1px -1px 1px #990000,
+         1px  0px 1px #990000,
+         0px  1px 1px #990000,
+        -1px  0px 1px #990000,
+         0px -1px 1px #990000;        /* 文字の影 */
+}
+
+.fot{
+    background-color: var(--primary-color-dark);
+}
+/*=================================================-ヘッダー終わり*/
+
+
+/*ページの一番上に飛ぶ矢印の定義（試験的）*/
+.goto-top{
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin:20px;
+    z-index:100;
+    color: var(--secondary-color);
+}
+.goto-top:hover{
+    color:var(--secondary-color-dark);
+}
+.goto-top-content{
+    width:40px;
+    height:40px;
+    font-size:40px;
+}
+
+/*=============================================ラッパー============================================================*/
+
+/*コンテンツを中央寄せにし、なおかつmaxの幅を制御する*/
+.wrapper {
+  display: grid;
+  grid-template-columns:
+    1fr
+    min(100ch, 100%)/*要素の幅をフォント100文字ぶんの幅で定義。画面がそれより小さければそっちが優先*/
+    1fr;
+}
+.wrapper > * {
+  grid-column: 2;
+}
+.wrapper-wide {
+    display: grid;
+    grid-template-columns:
+      1fr
+      min(150ch, 100%)
+      1fr;
+}
+.wrapper-wide > * {
+grid-column: 2;
+}
+.full-bleed {
+  width: 100%;
+  grid-column: 1 / 4;
+}
+
+/*===========================================ラッパー終わり==============================================================*/
+
+body {
+    background-color: var(--white);
+}
+body p{
+    margin:2px;
+    font-size:18px;
+    color:black;
+}
+.card {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.card p {
+    margin: 1px;
+    font-size: 14px;
+}
+#introduction-content img{
+    width: 100%;
+}
+
+/*=============================================================*/
+h2 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:5px;
+    background:  var(--secondary-color);
+    border-radius: 3px;
+    color:var(--white);
+}
+
+#dtm-introduction h3,
+#dtm-schedule h3,
+#dtm-works h3,
+#prog-introduction h3,
+#prog-schedule h3,
+#prog-works h3 ,
+#cg-introduction h3,
+#cg-schedule h3,
+#cg-works h3,
+#link-introduction h3,
+#link-schedule h3,
+#link-works h3,
+#movie-introduction h3,
+#movie-schedule h3,
+#movie-works h3,
+#main-schedule h3{
+    background-color: var(--secondary-color-dark2);
+    color: var(--white);
+    margin-top: 20px;
+    border-radius: 3px;
+    border-left:solid 10px;
+    padding: 0.5em;
+}
+#dtm-introduction h3,
+#dtm-schedule h3,
+#dtm-works h3 {
+    border-left-color: #c92525;
+}
+#prog-introduction h3,
+#prog-schedule h3,
+#prog-works h3 {
+    border-left-color: #253ec9;
+}
+#cg-introduction h3,
+#cg-schedule h3,
+#cg-works h3{
+    border-left-color: #25c92d;
+}
+#link-introduction h3,
+#link-schedule h3,
+#link-works h3{
+    border-left-color: #51f1dc;
+}
+#movie-introduction h3,
+#movie-schedule h3,
+#movie-works h3{
+    border-left-color: rgb(218, 204, 21);
+}
+#main-schedule h3 {
+    border-left-color: rgb(156, 158, 21);
+}
+
+/*========================ジャンボトロン=====================================*/
+
+#cg-jumbo,
+#dtm-jumbo,
+#prog-jumbo{
+    background-color:rgba(0,0,0,0.5);
+    background-size: cover;
+    background-position: center 60%;
+    background-blend-mode:darken;
+}
+#cg-jumbo {
+    background-image: url("../images/cg/works-thumbnail.png");
+}
+#dtm-jumbo {
+    background-image: url("../images/dtm/works-thumbnail.png");
+}
+#prog-jumbo {
+    background-image: url("../images/prog/works-thumbnail.png");
+}
+#movie-jumbo {
+    background-image: url("../images/prog/works-thumbnail.png");
+}
+
+#cg-jumbo h1,
+#cg-jumbo p,
+#dtm-jumbo h1,
+#dtm-jumbo p,
+#movie-jumbo h1,
+#movie-jumbo p,
+#prog-jumbo h1,
+#prog-jumbo p{
+    color: var(--white);
+}
+/*==============================ジャンボトロン終わり===============================*/
+.ritaisai-headline-title{
+    position:absolute;
+    bottom:0;
+    margin-left:15px;
+    font-size: 120px;
+    font-weight: bolder;
+    color: rgba(255,255,255,0.4);
+    font-family: 'Merriweather', serif;
+}
+
+
+.headline-title{
+    position:absolute;
+    bottom:0;
+    margin-left:15px;
+    font-size: 120px;
+    font-weight: bolder;
+    color: rgba(255,255,255,0.5);
+    font-family: 'Merriweather', serif;
+}
+#ritaisai-headline,
+#dtm-headline,
+#cg-headline,
+#prog-headline,
+#movie-headline,
+#link-headline{
+    height: 300px;
+    background-size: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    background-size: auto 1000px;
+}
+
+#ritaisai-headline{
+    background-image: url("../images/link-header-2.png");
+}
+#dtm-headline {
+    background-image: url("../images/DTM-header2.png");
+}
+#cg-headline {
+    background-image: url("../images/CG-header2.png");
+}
+#prog-headline {
+    background-image: url("../images/prog-header2.png");
+}
+#movie-headline {
+    background-image: url("../images/MV-header2.png");
+}
+#link-headline {
+    background-image: url("../images/link-header.png");
+}
+
+.card-has-caption{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.card-has-caption::after{
+    content: "\f1ea";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color:gray;
+}
+
+.card-sdw:hover {
+    -webkit-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    -moz-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    -ms-filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(1px 3px 5px rgba(0, 0, 0, 0.2));
+}
+.jumbotron-sdw:hover {
+    -webkit-filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 0.2));
+    -moz-filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 0.2));
+    -ms-filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 0.2));
+}
+
+
+/*========================================================================*/
+/*padding-topを設定しないとヘッダー(高さ50px)と被って見えなくなるので*/
+.modal{
+    padding-top: 60px;
+}
+
+.table{
+    background:var(--white);
+    color:black;
+    border-radius: 3px;
+}
+.card p{
+    color:black;
+}
+
+.container{
+    background:var(--white);
+    -webkit-filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 0.2));
+    -moz-filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 0.2));
+    -ms-filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(1px 3px 8px rgba(0, 0, 0, 0.2));
+}

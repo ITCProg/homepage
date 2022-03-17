@@ -1,0 +1,31 @@
+
+{
+	"ob_list":[
+		""
+	],
+	"item-template":{
+        "embed":"youtubeの共有→埋め込みからコピーし、ダブルクォーテーションをシングルクオーテーションに変換したものを貼り付けてください",
+        "title":"タイトル",
+		"description":"説明 無くてもいいです",
+        "authors":[
+        	"作者1",
+        	"作者2",
+			"一人の場合でも配列にしてください"
+        ],
+        "subauthors":[
+        	"他の作者1",
+        	"他の作者2",
+        	"指定しなくてもいいです"
+        ]
+    },
+    "items2021":[
+    	{
+	    	"embed":"<iframe width='560' height='315' src='https://www.youtube.com/embed/eZ8E0lP5wR8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+	    	"title":"sci-5",
+	    	"authors":[
+	    		"signum",
+	    		"xeam"
+	    	]
+    	}
+    ]
+}

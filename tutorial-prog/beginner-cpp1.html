@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="../src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../favicon.ico">
+    
+    
+    <title>Visual Studio 2019(無料)の導入 - 情報技術クラブ ITC</title>
+
+</head>
+<body>
+    <script type="text/javascript">header('../');</script>
+
+    <!-- メインコンテンツ-->
+    <!-- ページの上にある画像と半透明の文字-->
+    <div id="prog-headline">
+        <div class="headline-title">
+            <h2>Prog</h2>
+        </div>
+    </div>
+
+    <section class="wrapper m-3">
+        <div id="prog-introduction">
+            <div class="alert alert-warning" role="alert">
+                <p>
+                    <strong>※Windows向けの説明です。</strong>
+                    mac, linuxなどには対応していません。
+                </p>
+                <p>
+                    また<strong>visual studio</strong>前提での開発なのでご了承ください。
+                </p>
+            </div>
+            <p>ITCではC++を教えるためにVisual Studioというソフトを使用しています。</p>
+            <p>無料で導入できるので、先駆けてプログラミングをしたい人はぜひダウンロードしてみてください。</p>
+            <p>このソフトはパソコンの性能がある程度整っている必要があります。</p>
+            <p>自分のパソコンでソフトを動かせるか確かめたい方は導入してみると良いと思います。</p>
+            <h3>ダウンロード</h3>
+            <p>Visual Studio 2019はこちらのサイトでダウンロードできます。</p>
+            <div class="card">
+                <div class="card-body">
+                    <a href="https://visualstudio.microsoft.com/ja/downloads/"><h5 class="card-text">Visual Studio 2019のダウンロード</h5></a>
+                </div>
+            </div>
+
+            <h3>拡張機能</h3>
+
+
+            <div class="col-12 col-md-7">
+                <img src="../images/prog/tutorial/beginnerCpp1/visualStudio2019.JPG" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>このページのコミュニティの下にある紫色の<strong>「無料ダウンロード」</strong>をクリックしてください。</p>
+            <p>別のページに移動し、しばらくするとインストーラが自動でダウンロードされます。</p>
+
+            <div class="col-12 col-md-8">
+                <img src="../images/prog/tutorial/beginnerCpp1/visualStudioExe.JPG" alt="" class="w-100">
+            </div>
+            <p>ダウンロードしたインストーラのexeファイルをダブルクリックし、起動してください。</p>
+            <p>起動してしばらく待つと次のような画面が出ると思います。</p>
+
+            <div class="col-12 col-md-12">
+                <img src="../images/prog/tutorial/beginnerCpp1/visualStudioInstaller.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>ここの<strong>C++によるデスクトップ開発</strong>の項目にチェックをし、右下のインストールのボタンをクリックしてください。(画像では「変更」となっています。)</p>
+            <div class="col-12 col-md-12">
+                <img src="../images/prog/tutorial/beginnerCpp1/visualStudioInstalling.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>するとインストールが開始されるので、しばらくお待ちください。(2,30分程度かかるときもあります。)</p>
+            <p>インストールが完了すると起動します。</p>
+            <div class="col-12 col-md-6">
+                <img src="../images/prog/tutorial/beginnerCpp1/visualStudioLogin.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>ログインを求められるかもしれませんが、なくても大丈夫だと思います。</p>
+            <h3>プロジェクトの作成</h3>
+            <div class="col-12 col-md-12">
+                <img src="../images/prog/tutorial/beginnerCpp1/visualStudioMenu.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>右にある<strong>「新しいプロジェクトの作成」</strong>をクリックし、</p>
+            <div class="col-12 col-md-12">
+                <img src="../images/prog/tutorial/beginnerCpp1/visualStudioEmptyProject.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p><strong>「空のプロジェクト」</strong>を選択し、右下の「次へ」をクリックします。</p>
+            <div class="col-12 col-md-12">
+                <img src="../images/prog/tutorial/beginnerCpp1/visualStudioNewProject.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>プロジェクト名はなんでもいいですが、ここではTestとします。</p>
+            <div class="col-12 col-md-12">
+                <img src="../images/prog/tutorial/beginnerCpp1/visualStudioWindow.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>作成をクリックするとこのような画面が出てくると思います。基本的にはこの画面で作業していくことになります。</p>
+            <h3>ソースコードを書くファイルを作る</h3>
+            <div class="col-12 col-md-12">
+                <img src="../images/prog/tutorial/beginnerCpp1/visualStudioNewContent.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>右のソリューションエクスプローラーにあるソースファイルを右クリックし、新しい項目を選択します。</p>
+            <div class="col-12 col-md-12">
+                <img src="../images/prog/tutorial/beginnerCpp1/visualStudioNewSource.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>すると、ソースコードなどをプロジェクトに追加するためのウィンドウが開きます。</p>
+            <p>左のメニューからVisual C++を選択し、C++ファイル(.cpp)を選び、右下の「追加」をクリックします。</p>
+            <div class="col-12 col-md-12">
+                <img src="../images/prog/tutorial/beginnerCpp1/visualStudioSource.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>するとSource.cppというタブが表示されます。この中にプログラムを書いていくことになります！</p>
+        </div>
+        <div id="tutorial-guide">
+            <guide prev="" home="../prog-for_beginners.html" next="beginner-cpp2.html" v-bind:showprev="false" v-bind:shownext="true" ></guide>
+        </div>
+    </section>
+
+    <script type="text/javascript">footer('../');</script>
+    <script type="text/javascript"  src="../src/tutorial-guide.js"></script> 
+
+</body>
+</html>

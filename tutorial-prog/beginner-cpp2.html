@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="../src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../favicon.ico">
+    
+    
+    <title>プログラムを作ってみる - 情報技術クラブ ITC</title>
+
+    <!--ソースコードを表示するため-->
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <link rel="stylesheet" href="../css/sonOfObsidian.css">
+
+</head>
+<body>
+    <script type="text/javascript">header('../');</script>
+
+    <!-- メインコンテンツ-->
+    <!-- ページの上にある画像と半透明の文字-->
+    <div id="prog-headline">
+        <div class="headline-title">
+            <h2>Prog</h2>
+        </div>
+    </div>
+
+    <section class="wrapper m-3">
+        <div id="prog-introduction">
+            <p>画面への文字の表示ができるようなプログラムの作り方を紹介します。</p>
+            <img src="../images/prog/tutorial/beginnerCpp2/visualStudioSource.png" alt="" class="full-bleed m-2">
+            <p>前回紹介したこのプログラムで、Hello World!が画面に出るようになります！</p>
+            <p>それぞれの行で何をやっているのかの説明は後でやるとして、まずはコードを写して実行してみましょう。</p>
+            <pre class="prettyprint linenums p-2 m-4">
+
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main() {
+    cout << "Hello World!" << endl;
+    return 0;
+}
+</pre>
+            <h3>プログラムの実行</h3>
+            <p>ソースコードを読み取りプログラムとして実行するにはコマンドを入力する必要があります。</p>
+            <h5>ctrl + F5</h5>
+            <p>これら２つのキーを同時押しするとコンパイル(ソースコードをプログラムに変換する作業)が始まります。</p>
+            <img src="../images/prog/tutorial/beginnerCpp2/helloWorld.png" alt="" class="full-bleed m-2">
+            <p>しばらくするとこのようなウィンドウが表示されます。これで画面に文字を表示するプログラムを作れるようになりました！</p>
+
+            <h3>説明</h3>
+            <p>プログラムは基本的に上から下に向けて実行されます。</p>
+            <pre class="prettyprint linenums p-2 m-4">
+
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main() {
+cout << "Hello World!" << endl;
+return 0;
+}
+</pre>
+            <div class="my-3">
+                <p>2行目の<code>#include &lt;iostream&gt;</code>では、このソースコードに入出力をするための拡張機能のようなものを用意させています。</p>
+                <p>iostreamがあることで出力するための命令である<code>cout</code>が使えるようになります。</p>
+                <p>iostreamは<strong>input output stream</strong>の略です。</p>
+            </div>
+            <div class="my-3">
+                <p>4行目の<code>using namespace std;</code>では、本来は書かなければいけないことを省略できるようにしています。</p>
+                <p>本来、<code>cout</code>は<code>std::cout</code>と書かなければいけないのですが、いちいち書くのは面倒なので、省略します。</p>
+            </div>
+            <div class="my-3">
+                <p>6行目の<code>int main() {</code>から、9行目の<code>}</code>までがプログラムの内容となります。プログラムはこの<strong>波カッコ{}</strong>の中に書く必要があります。</p>
+            </div>
+            <div class="my-3">
+                <p>7行目で画面に文字を出力しています。</p>
+                <p><code>cout</code>の後に<code>&lt;&lt;文字列</code>と置くことで文字列が表示されます。</p>
+                <p>文字列は<strong>ダブルクォーテーション""</strong>で囲む必要があります。</p>
+                <p>そのあとに改行を意味する<code>endl</code>を出力しています。</p>
+            </div>
+            <div class="my-3">
+                <p>8行目でプログラムが正常に終了したことをパソコンに伝えています。</p>
+            </div>
+
+            <h5></h5>
+
+            <h3>まとめ</h3>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">プログラムは<code>int main(){}</code>の<strong>波カッコ{}</strong>の中に書く</li>
+                <li class="list-group-item">文字の表示には<code>cout</code>を使う</li>
+                <li class="list-group-item">文字列は<strong>ダブルクォーテーション""</strong>で囲む</li>
+            </ul>
+        </div>
+
+        <div id="tutorial-guide">
+            <guide prev="beginner-cpp1.html" home="../prog-for_beginners.html" next="" v-bind:showprev="true" v-bind:shownext="false" ></guide>
+        </div>
+    </section>
+
+    <script type="text/javascript">footer('../');</script>
+    <script type="text/javascript"  src="../src/tutorial-guide.js"></script> 
+
+</body>
+</html>

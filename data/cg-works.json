@@ -1,0 +1,334 @@
+
+{
+    "comment":[
+        "imgurlの文字列にスペースを含めると画像が読み込まれません。ファイル名を変えてください。",
+        "cardTypeは作品がページの何マスを使用して表示されるかを決めます。",
+        "year, cardTypeはダブルクォーテーションで囲まないようにしてください。"
+    ],
+    "item-template":{
+        "title":"作品の題名",
+        "year   (作品を制作した年度)":2019,
+        "imgurl":"画像のパス。基本はimages/cg/works/~~~",
+        "author": "作品の作者",
+        "subauthors":[
+            "作品の他の作者（いれば）"
+        ],
+        "card_type (作品を表示させる種類（0なら１マス、1なら2マスぶん使って表示)":0
+    },
+
+
+
+
+    "ob_list":[
+        "あきらめない男",
+        "なりゆる",
+        "ころりん"
+    ],
+    "ritaisai2021": [
+        {
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/K.jpg",
+            "author":"K",
+            "card_type":0
+        },
+        {
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/UNDERTALE_heta.jpg",
+            "author":"heta",
+            "card_type":0
+        },
+        {
+            "title":"オグリ",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/オグリ_lambda.png",
+            "author":  "lambda",
+            "card_type":1
+        },
+        {
+            "title":"バトル",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/バトル_からびな.png",
+            "author": "からびな",
+            "card_type":0
+        }
+        ,{
+            "title":"マヤノトップガン",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/マヤノトップガン_ゆらむ.png",
+            "author": "ゆらむ",
+            "card_type":0
+        }
+        ,{
+            "title":"ライスシャワー",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/ライスシャワー_白茶.png",
+            "author": "白茶",
+            "card_type":0
+        }
+        ,{
+            "title":"夏の風物詩",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/夏の風物詩_やぐ.png",
+            "author": "やぐ",
+            "card_type":0
+        }
+        ,{
+            "title":"華",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/華_とりにく.jpg",
+            "author": "とりにく",
+            "card_type":1
+        }
+        ,{
+            "title":"休憩",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/休憩_Nost.png",
+            "author": "Nost",
+            "card_type":0
+        }
+        ,{
+            "title":"空",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/空_レミ.png",
+            "author": "レミ",
+            "card_type":0
+        }
+        ,{
+            "title":"私だけの宗教",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/私だけの宗教_K4N0N.png",
+            "author": "K4N0N",
+            "card_type":0
+        }
+       
+        
+        ,{
+            "title":"Dear my Friend",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/Dear my friend_bacon.jpg",
+            "author": "bacon",
+            "card_type":0
+        }
+        ,{
+            "title":"夏",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/夏_syll.jpg",
+            "author": "syll",
+            "card_type":1
+        } ,{
+            "title":"Amethyst sphere",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/xeam.png",
+            "author": "xeam",
+            "card_type":1
+        }
+        ,{
+            "title":"箱庭の少女(挿絵)",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/箱庭の少女挿絵_せりぜ.jpg",
+            "author": "せりぜ",
+            "card_type":0
+        },{
+            "title":"",
+            "year":2021,
+            "imgurl":"images/cg/works/ritaisai/青木そら.jpeg",
+            "author": "青木そら",
+            "card_type":0
+        }
+     
+    ],
+    "poster_items": [
+        {
+            "year":2019,
+            "imgurl":"images/cg/works/2019/ITC2019poster_響一.png",
+            "author":"響一",
+            "card_type":0
+        },
+        {
+            "year":2020,
+            "imgurl":"images/cg/works/2020/新歓ポスター_ゆらむ.png",
+            "author":"ゆらむ",
+            "card_type":0
+        },
+        {
+            "year":2020,
+            "imgurl":"images/cg/works/2020/情報技術クラブ_紹介_レミ.png",
+            "author":  "レミ",
+            "card_type":1
+        },
+        {
+            "year":2020,
+            "imgurl":"images/cg/works/2020/ITC2020poster_響一.png",
+            "author": "響一",
+            "card_type":0
+        }
+    ],
+    "m3_items": [
+        {
+            "title":"ITC vol.8",
+            "year":2017,
+            "imgurl":"images/cg/works/2017/ITCvol8CDジャケット表_ころりん.png",
+            "author": "ころりん",
+            "card_type":0
+        },
+        {
+            "title":"ITC mini vol.1",
+            "year":2019,
+            "imgurl":"images/cg/works/2019/itcmini_vol1_レミ.png",
+            "author":   "レミ",
+            "card_type":0
+        },
+        {
+            "title":"ITC vol.12",
+            "year":2019,
+            "imgurl":"images/cg/works/2019/itc_vol12_レミ.jpg",
+            "author":  "レミ",
+            "card_type":0
+        }
+    ],
+    "other_items2017":[
+        {
+            "title":"りりえんぬ",
+            "year":2017,
+            "imgurl":"images/cg/works/2017/りりえんぬ_ころりん.png",
+            "author":  "ころりん",
+            "card_type":1
+        },
+        {
+            "title":"kororin",
+            "year":2017,
+            "imgurl":"images/cg/works/2017/kororin_ころりん.png",
+            "author":"ころりん",
+            "card_type":0
+        }
+    ],
+    "other_items2018":[
+        {
+            "title":"チルチルヒョロピ",
+            "year":2018,
+            "imgurl":"images/cg/works/2018/チルチルヒョロピ_Euk.png",
+            "author":  "Euk",
+            "card_type":1
+        },
+        {
+            "title":"虚",
+            "year":2018,
+            "imgurl":"images/cg/works/2018/虚＿あきらめない男.png",
+            "author": "あきらめない男",
+            "card_type":0
+        },
+        {
+            "title":"がおー",
+            "year":2018,
+            "imgurl":"images/cg/works/2018/がおー_あきらめない男.png",
+            "author":"あきらめない男",
+            "card_type":0
+        }
+    ],
+    "other_items2019":[
+        {
+            "title":"aki",
+            "year":2019,
+            "imgurl":"images/cg/works/2019/aki_響一.png",
+            "author":  "響一",
+            "card_type":0
+        },
+        {
+            "title":"bone",
+            "year":2019,
+            "imgurl":"images/cg/works/2019/bone_あきらめない男.jpg",
+            "author": "あきらめない男",
+            "card_type":0
+        },
+        {
+            "title":"ドラゴンと魔法使い",
+            "year":2019,
+            "imgurl":"images/cg/works/2019/ドラゴンと魔法使い_ゆらむ.png",
+            "author": "ゆらむ",
+            "card_type":1
+        },
+        {
+            "title":"少女A",
+            "year":2019,
+            "imgurl":"images/cg/works/2019/少女A_なりゆる.png",
+            "author": "なりゆる",
+            "card_type":0
+        },
+        {
+            "title":"窓際",
+            "year":2019,
+            "imgurl":"images/cg/works/2019/窓際修正_なりゆる.png",
+            "author":   "なりゆる",
+            "card_type":0
+        },
+        {
+            "title":"太陽の少女",
+            "year":2019,
+            "imgurl":"images/cg/works/2019/太陽の少女_なりゆる.png",
+            "author": "なりゆる",
+            "card_type":0
+        }
+    ],
+    "other_items2020": [
+        {
+            "title":"Sincerely",
+            "year":2020,
+            "imgurl":"images/cg/works/2020/Sincerely_ChRoia.png",
+            "author": "ChRoia",
+            "card_type":0
+        },
+        {
+            "title":"エリーとゼボット",
+            "year":2020,
+            "imgurl":"images/cg/works/2020/エリーとゼボット_ChRoia.png",
+            "author":  "ChRoia",
+            "card_type":0
+        },
+        {
+            "title":"neko",
+            "year":2020,
+            "imgurl":"images/cg/works/2020/neko_レミ.png",
+            "author": "レミ",
+            "card_type":0
+        },
+        {
+            "title":"約束の場所(リノア)",
+            "year":2020,
+            "imgurl":"images/cg/works/2020/約束の場所(リノア)_ChRoia.png",
+            "author":"ChRoia",
+            "card_type":0
+        },
+        {
+            "title":"ルーン学院三人衆",
+            "year":2020,
+            "imgurl":"images/cg/works/2020/ルーン学院三人衆_レミ.png",
+            "author":"レミ",
+            "card_type":1
+        },
+        {
+            "year":2020,
+            "imgurl":"images/cg/works/2020/bacon1.jpg",
+            "author":"bacon",
+            "card_type":0
+        },
+        {
+            "year":2020,
+            "imgurl":"images/cg/works/2020/ChRoia.jpg",
+            "author":"ChRoia",
+            "card_type":0
+        },
+        {
+            "title":"color",
+            "year":2020,
+            "imgurl":"images/cg/works/2020/color_レミ.jpg",
+            "author":"レミ",
+            "card_type":0
+        },
+        {
+            "year":2020,
+            "imgurl":"images/cg/works/2020/watabu.png",
+            "author":"watabu",
+            "card_type":0
+        }
+    ]
+}

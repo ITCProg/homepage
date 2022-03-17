@@ -1,0 +1,97 @@
+{
+    "comment":[
+        "Sound Cloudのリンクを埋め込みます",
+        "Share->Embedからコードをコピーしますが、jsonにはそのまま貼り付けられません。",
+        "<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/701998210&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe>",
+        "上のようなコードをコピーしてからsrc=~のURL部分だけをjsonのsrcに貼り付けて下さい。"
+    ],
+    "ritaisai2021":[
+        {
+            "time":"2021",
+            "title":"Made with late nights♥",
+            "embed":"<iframe style='border: 0; width: 100%; height: 120px;' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1126705126&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe>"
+        },
+        {
+            "time":"2021",
+            "title":"宇宙",
+            "embed":"<iframe style='border: 0; width: 100%; height: 120px;' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1127319778&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe>"
+        }
+    ],
+    "m3_xfd":[
+        {
+            "time":"2021",
+            "title":"Innocent",
+            "embed":"<iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=520042000/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/' seamless><a href='https://itcmusic1.bandcamp.com/album/innocent'>Innocent by Various Artists</a></iframe>"
+        },
+        {
+            "time":"2021春",
+            "title":"ITC vol.14",
+            "embed":"<iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=619519825/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/' seamless><a href='https://itcmusic1.bandcamp.com/album/itc-vol-14-2'>ITC Vol.14 by various artists</a></iframe>"
+        },
+        {
+            "time":"2020秋",
+            "title":"ITC vol.13",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/908715547&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        },
+        {
+            "time":"2019秋",
+            "title":"ITC vol.12",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/701998210&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        },
+        {
+            "time":"2019春",
+            "title":"ITC vol.11",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/611237994&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        },
+        {
+            "time":"2018秋",
+            "title":"ITC vol.10",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/515583273&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        },
+        {
+            "time":"2018春",
+            "title":"ITC vol.9",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/431972070&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        },
+        {
+            "time":"2017秋",
+            "title":"ITC vol.8",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/348179147&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        },
+        {
+            "time":"2017春",
+            "title":"ITC vol.7",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319213656&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        },
+        {
+            "time":"2016秋",
+            "title":"ITC vol.6",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/290519242&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        },
+        {
+            "time":"2016春",
+            "title":"ITC vol.5",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/258420730&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        },
+        {
+            "time":"2015秋",
+            "title":"ITC vol.4",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/227987384&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        },
+        {
+            "time":"2015春",
+            "title":"ITC vol.3",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/202066566&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        },
+        {
+            "time":"2014秋",
+            "title":"ITC vol.2",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/173372607&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        },
+        {
+            "time":"2014春",
+            "title":"ITC vol.1",
+            "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/145749001&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
+        }
+    ]
+}

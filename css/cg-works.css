@@ -1,0 +1,19 @@
+
+#cg-works img{
+    width: 100%;
+}
+
+.cg-card-grayscale img{
+    filter: brightness(70%);
+}
+.cg-card-grayscale img:hover{
+    filter: brightness(100%);
+}
+.cg-card-author{
+    background-color: rgba(0,0,0,0.5);
+    position:absolute;
+    left:0;
+    bottom:0;
+    color:#f0f0f0;
+    border-radius: 10px 10px 10px 10px;
+}

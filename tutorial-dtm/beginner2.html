@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="../src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../favicon.ico">
+    
+    
+    <title>Studio one prime(無料)の導入 - 情報技術クラブ ITC</title>
+</head>
+<body>
+    <script type="text/javascript">header('../');</script>
+
+    <!-- メインコンテンツ-->
+    <!-- ページの上にある画像と半透明の文字-->
+    <div id="dtm-headline">
+        <div class="headline-title">
+            <h2>DTM</h2>
+        </div>
+    </div>
+
+    <section class="wrapper m-3" >
+        <div id="dtm-introduction">
+            <p>無料で使える作曲ソフト(以下DAW)はいくつかありますが、ITCで例年扱っているのはStudio one primeです。</p>
+            <p>無料版で機能は限られていますが、保存やエクスポート、エフェクターやサウンドフォントの使用など最低限の機能は備わっています。</p>
+            <p>Studio one primeはアカウント登録(無料)をする必要があります。その手順も含めて説明していきます。</p>
+            <h3>PreSonus登録</h3>
+            <a href="https://www.mi7.co.jp/products/presonus/studioone/prime/"><h4>Studio one primeへのリンクはこちらです。</h4></a>
+            <p>Studio one primeのページに移動し、下へスクロールしていくと、このような説明が出てくると思います。</p>
+            <div class="col-12 col-md-12 my-4">
+                <img src="../images/dtm/tutorial/studiooneprime.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>アカウント作成をするにはStep1にある<strong>MyPreSonusへアクセス</strong>をクリックしましょう。</p>
+            <p>するとこのような画面が出てくるので、右下の<strong>「My.PreSoNusアカウントの作成」</strong>をクリックしましょう。</p>
+            <div class="col-12 col-md-12 my-4">
+                <img src="../images/dtm/tutorial/presonusAccount.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>必要な項目を入力し、<strong>「保存」</strong>をクリックしたらメールが来るのを待ちましょう。</p>
+            <div class="col-12 col-md-12 my-4">
+                <img src="../images/dtm/tutorial/presonusRegister.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>このようなメールが来たらURLへ飛び、メールにあったパスワードを入力してログインしましょう。</p>
+            <div class="col-12 col-md-12 my-4">
+                <img src="../images/dtm/tutorial/presonusActivate.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <h3>Studio one primeダウンロード</h3>
+            <p>ログインしたら上に「Myプロダクト」という項目があるので、クリックし、Studio one prime4のインストーラをダウンロードしましょう。</p>
+            <div class="col-12 col-md-12 my-4">
+                <img src="../images/dtm/tutorial/presonusPrime4.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>これで<strong>Studio one prime 4</strong>のダウンロードは終了です！画面の指示に従いDAWを起動しましょう。</p>
+        </div>
+        <div id="tutorial-guide">
+            <guide prev="beginner1.html" home="../dtm-forBeginners.html" next="beginner3.html" v-bind:showprev="true" v-bind:shownext="true" ></guide>
+        </div>
+    </section>
+
+    <script type="text/javascript">footer('../');</script>
+    <script type="text/javascript"  src="../src/tutorial-guide.js"></script> 
+
+</body>
+</html>
