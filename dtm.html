@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&display=swap" rel="stylesheet">
+
+    <title>DTM部について - 情報技術クラブ ITC</title>
+</head>
+
+<body>
+    <div id="top"></div>
+    <script type="text/javascript">gotoTop('');</script>
+    <script type="text/javascript">header('');</script>
+    <!-- メインコンテンツ-->
+    <div id="dtm-headline">
+        <div class="headline-title">
+            DTM
+        </div>
+    </div>
+    <section class="wrapper m-3">
+        <div id="dtm-introduction">
+            <div class="m-2">
+                <section class="my-4">
+                    <p>DTMとはDeskTop Musicの略で、DTM部では日々パソコンで楽曲制作を行っています。</p>
+                    <p>初心者を対象とした講習会も行っており、はじめのうちは無料でインストールできる<strong>Studio one 5 prime</strong>を実演しながら作曲の仕方を教えています。</p>
+                </section>
+                <section class="my-4">
+                    <p>ITC内で制作した曲は<i class="fab fa-soundcloud"></i>Sound
+                        Cloudでサンプル(クロスフェード)を例年公開しています。<strong>春・秋M3</strong>での頒布に向けた曲です。</p>
+                </section>
+            </div>
+
+            <div class="container p-0 my-5">
+                <h3><i class="fas fa-desktop p-2"></i>制作環境</h3>
+                <div class="p-3">
+                    <p>サークル全体で制作環境を決めることはせず、各々で好きなソフトで作曲をしています。</p>
+                    <p>CubaseやStudio oneを使用している人が多数ですが、FL Studioなど他のDAWソフトでももちろん構いません。</p>
+                </div>
+            </div>
+
+            <div class="container p-0 my-5">
+                <h3><i class="fas fa-chalkboard-teacher p-2"></i>目標</h3>
+                <div class="p-3">
+                    <p>主に10月の秋M3、3月の春M3に向けてそれぞれ自主的に制作を行っています。</p>
+                </div>
+            </div>
+
+            <div class="container p-0 my-5">
+                <h3><i class="fas fa-user-friends p-2"></i>部会</h3>
+                <div class="p-3">
+                    <div class="pb-3">
+                        <p>DTM部員たちで週に１回集まって講習会をしたり作業したりします。</p>
+                        <p>作った曲を発表して、先輩からのアドバイスをもらったり、合作をすることもあります。</p>
+                    </div>
+                    <img src="images/dtm/DTM-lecture-2.jfif" alt="" class="w-100">
+                </div>
+            </div>
+
+            <div class="container p-0 my-5">
+                <h3><i class="fas fa-compact-disc p-2"></i>M3</h3>
+                <div class="p-3">
+                    <div class="pb-3">
+                        <p>10月の秋M3、3月の春M3に向けてそれぞれ自主的に制作を行っています。</p>
+                    </div>
+                    <img src="images/dtm/M32019Haru.jfif" alt="" class="w-100">
+                </div>
+            </div>
+
+            <div class="container p-0 my-5">
+                <h3><i class="fas fa-route p-2"></i>合宿</h3>
+                <div class="p-3">
+                    <p>東京理科大学の姉妹サークルと一緒に合宿を年２回行っています。神楽坂一丁目通信局・RICORAと合同で、曲作りをしたり親睦を深めたりします。</p>
+                    <p>家では集中できない人でも、仲間と集まって一日中活動することができるので、実力が伸びたりします。</p>
+                    <p>ボードゲームをみんなでワイワイ集まってやれるのも、合宿の魅力の一つです。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container position-relative p-0 my-3" disabled>
+            <div class="jumbotron jumbotron-sdw m-0" id="dtm-jumbo">
+                <h1 class="display-4">作品紹介</h1>
+                <p class="lead"><strong>作品についての詳しい情報はこちら</strong></p>
+                <hr class="my-4">
+                <p>過去にSoundCloudに投稿したクロスフェードが聞けます</p>
+                <a class="btn btn-lg btn-light stretched-link" href="dtm-works.html" role="button">詳しい内容を見る</a>
+            </div><!-- /.jumbotron -->
+        </div><!-- /.container -->
+
+        <!-- 年間予定表-->
+        <div id="dtm-schedule">
+            <div class="container p-0 my-5">
+                <h3><i class="far fa-calendar p-2"></i>DTM年間活動予定</h3>
+                <table class="table table-sm table-borderless table-striped">
+                    <tr>
+                        <td>　４月</td>
+                        <td>新入生勧誘期間</td>
+                    </tr>
+                    <tr>
+                        <td>　５月</td>
+                        <td>初心者講習開始</td>
+                    </tr>
+                    <tr>
+                        <td>　６月</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>　７月</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>　８月</td>
+                        <td>夏休み(秋M3に向けて制作)<br>夏合宿</td>
+                    </tr>
+                    <tr>
+                        <td>　９月</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>１０月</td>
+                        <td>秋M3</td>
+                    </tr>
+                    <tr>
+                        <td>１１月</td>
+                        <td>理大祭</td>
+                    </tr>
+                    <tr>
+                        <td>１２月</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>　１月</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>　２月</td>
+                        <td>春休み(春M3に向けて制作)</td>
+                    </tr>
+                    <tr>
+                        <td>　３月</td>
+                        <td>春合宿<br>春M3</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">footer('');</script>
+
+</body>
+
+</html>

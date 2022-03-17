@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="../src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../favicon.ico">
+    
+    
+    <title>環境構築 - 情報技術クラブ ITC</title>
+    <!--ソースコードを表示するため-->
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <link rel="stylesheet" href="../css/sonOfObsidian.css">
+</head>
+<body>
+    <script type="text/javascript">header('../');</script>
+
+    <!-- メインコンテンツ-->
+    <!-- ページの上にある画像と半透明の文字-->
+    <div id="prog-headline">
+        <div class="headline-title">
+            <h2>Prog</h2>
+        </div>
+    </div>
+
+    <section class="wrapper m-3">
+        <div id="prog-introduction">
+
+            <p>このWebサイトはITCの部員が制作しているものです。</p>
+            <p>このサイトと同じようなWebサイトを作りたいという人もいるかもしれませんので、Webサイトの基本的な作り方をここにまとめたいと思います。</p>
+
+            <p>Webサイトを制作していくにあたって、環境構築を構築していきましょう。</p>
+            <p>ここではvsCodeを使用したいと思います。</p>
+
+            <h3>ダウンロード</h3>
+            <p>vsCodeはこちらのサイトでダウンロードできます。</p>
+            <div class="card">
+                <div class="card-body">
+                    <a href="https://azure.microsoft.com/ja-jp/products/visual-studio-code/"><h5 class="card-text">vsCodeのダウンロード</h5></a>
+                </div>
+            </div>
+            <p>visual studioと比べ軽量に動作しますので、スペックが不安なPCでも動かしやすいです。</p>
+            <h3>つくってみる</h3>
+            <p>Webサイトを作るために、ファイルを管理するためのフォルダを作成しましょう。</p>
+            <p>ここではHelloWebというフォルダにしました。自分がわかればどんな名前でも大丈夫です。</p>
+            <img src="../images/prog/tutorial/web1/hello-web.png" alt="" class="w-100 my-4">
+
+            <p>フォルダの中に移動し、<strong>index.html</strong>を作りましょう。右クリックから「新規作成」->「テキスト　ドキュメント」から作ることができます。</p>
+            <img src="../images/prog/tutorial/web1/create-file.png" alt="" class="w-100 my-4">
+            <h4>index.htmlとは？</h4>
+            <p>index.htmlとは、サイトを作るにあたってメインのページとなる特別な名前のファイルです。</p>
+            <p>ホームページの入り口となるサイトにはこの名前をつけましょう</p>
+            <p>さて、ここからvsCodeで<strong>index.html</strong>を編集していきましょう。</p>
+            <p>index.htmlを右クリックすると、codeで開くという項目があると思います。それをクリックして、vscodeで編集画面を開きましょう。</p>
+            <h4>htmlの構成要素</h4>
+
+            <p>htmlに基本的な構成要素を説明します。</p>
+            <p>htmlは様々な<strong>タグ</strong>の組み合わせで構成されています。タグは&lt; &gt;で囲みます。例えば段落を示すpタグであれば、&lt;p&gt; {内容} &lt;/p&gt;というふうに、内容を&lt;p&gt;&lt;/p&gt;で囲みます。</p>
+            <p>そのうち、htmlになくてはならないタグがいくつかあります。</p>
+            <ul class="my-4">
+                <li>&lt;html &gt;&lt;/html &gt; 囲まれた内容がhtmlであることを示す</li>
+                <li>&lt;head &gt;&lt;/head &gt; 囲まれた内容がhtmlのメタデータ（サイトのアイコンや文字コードの定義など）であることを示す</li>
+                <li>&lt;body &gt;&lt;/body &gt; 囲まれた内容がコンテンツであることを示す</li>
+                <li>&lt;!DOCTYPE html&gt; このファイルに書かれた内容がhtml5で書かれたものであることを示す(ほぼ必須)</li>
+            </ul>
+            <p>ひとまずはこれらのタグをindex.html内に書いていきましょう。</p>
+<pre class="prettyprint linenums p-2 m-4">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ja"&gt;
+&lt;head&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt; 
+</pre>
+        <p>これがサイトを構成する最小単位となります。</p>
+        <p>サイトに文字や画像を表示したい場合、bodyタグの中に記述していきます。例えば「hello world」という文字列を表示する場合、</p>
+<pre class="prettyprint linenums p-2 m-4">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ja"&gt;
+&lt;head&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;p&gt;hello world&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt; 
+</pre>
+<p>これで以下のような表示が出てきたと思います。このようにWebサイトは作られていきます。</p>
+<img src="../images/prog/tutorial/web1/hello-world.png" alt="" class="w-100 my-4">
+        </div>
+
+        <div id="tutorial-guide">
+            <guide prev="" home="../prog-forBeginners.html" next="bootstrap1.html" v-bind:showprev="false" v-bind:shownext="true" ></guide>
+        </div>
+    </section>
+
+    <script type="text/javascript">footer('../');</script>
+    <script type="text/javascript"  src="../src/tutorial-guide.js"></script> 
+
+</body>
+</html>

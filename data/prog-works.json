@@ -1,0 +1,479 @@
+
+{
+    "ob_list":[
+        "ばけぬこ！",
+        "ちゃっぷりん",
+        "りかさか",
+        "ヤマサナエ",
+        "りうこつ",
+        "大神 博臣",
+        "ベイベー",
+        "大神 博臣",
+        "音楽：ナキ",
+        "倉之",
+        "暇人ジョニー",
+        "画像：妖精",
+        "つなかん",
+        "もべしぃ",
+        "Mr.N",
+        "それがし",
+        "あぐろ",
+        "ナキ",
+        "ころえん",
+        "thikuwamanager",
+        "K",
+        "ゆうや",
+        "大神 博臣",
+        "音楽：ナキ",
+        "画像：傘井",
+        "妖精",
+        "鬼ノ孤児",
+        "ひまじんジョニー"
+    ],
+
+    "badges":{
+        "cpp":{
+            "name":"C++",
+            "color":0
+        },
+        "dxlib":{
+            "name":"Dxライブラリ",
+            "color":0
+        },
+        "cs":{
+            "name":"C#",
+            "color":1
+        },
+        "unity":{
+            "name":"Unity",
+            "color":1
+        }
+    },
+    "item-template":{
+        "invisible":"trueだと表示されなくなります",
+        "imgurl":"画像のパスを指定。基本images/prog/works/~~",
+        "title":"ゲームのタイトル",
+        "author":"ゲームの作者",
+        "subauthors":[
+            "ほかの作者（いれば）"
+        ],
+        "captions":[
+            "ゲームの説明文"
+        ],
+        "languages":[
+            "ゲームを作った言語などのリスト",
+            "上のbadgesから選ぶ"
+        ]
+    },
+    
+    "ritaisai2021":[
+        {
+            "imgurl":"images/prog/works/ritaisai/recipe1.png",
+            "title":"Recipe Proposer",
+            "author":"Chino",
+            "captions":[
+                "条件に合わせて献立をランダムに提案するアプリです。",
+                "使う食材や調理時間を指定することができます。"
+            ],
+            "languages":[
+        
+            ]
+        }
+        ,
+        {
+            "imgurl":"images/prog/works/ritaisai/2.png",
+            "title":"Circle2",
+            "author":"ものくろ",
+            "captions":[
+                "円運動の挙動を用いて、イライラ棒的なことをするゲーム。"
+            ],
+            "languages":[
+                "cs",
+                "unity"
+            ]
+        }
+        ,
+        {
+            "imgurl":"images/prog/works/ritaisai/figp.png",
+            "title":"Panel Reverse",
+            "author":"ねころんだ",
+            "captions":[
+                "パネルをクリックして周囲のパネルをひっくり返し,自分の色のパネルを多く確保するゲームです."
+            ],
+            "languages":[
+                "unity"
+            ]
+        }
+    ],
+
+    "items2020":[
+        {
+            "imgurl":"images/prog/works/2020/Shooting_Game_with_Math.png",
+            "title":"Shooting Game with Math",
+            "author":"kage",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        }
+    ],
+
+    "items2019": [
+        {
+            "imgurl":"images/prog/works/2019/circle.png",
+            "title":"Circle",
+            "author":"ものくろ",
+            "captions":[
+                "円運動しかできない物体をマウスで操作するゲーム。",
+                "イライラ棒や、アイテム集めのタイムアタックの二つのゲームモードがあります。"
+            ],
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2019/doteat.png",
+            "title":"Dot eat",
+            "author":"カエル",
+            "captions":[
+                "方向キーでペンギンを操作してマップ上の魚を集めるゲームです。",
+                "途中にある落とし穴に落ちたりカモメにぶつかるとゲームオーバー。",
+                "落とし穴の位置を覚えつつカモメを避けながら魚を全て集めればステージクリアです。",
+                "約1ヶ月で制作。"
+            ],
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2019/towerdefence.png",
+            "title":"TowerDefence",
+            "author":"わたぶ",
+            "captions":[
+                "大砲を設置して画面の上からくる敵をすべて倒すゲームです。",
+                "ポイントをうまく稼ぎながらどの大砲をどこに設置するかの駆け引きが重要になってくるゲームです。"
+            ],
+            "languages":[
+                "cs",
+                "unity"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2019/ブロック崩し.png",
+            "title":"ブロック崩し",
+            "author": "メンダコ",
+            "captions":[
+                "画面下部のバーを方向キーで左右に動かしてボール跳ね返し、ブロックを崩していくゲームです。",
+                "難しい操作は必要としていません。"
+            ],
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2019/猫を集めるゲーム.png",
+            "title":"猫を集めるゲーム",
+            "author":"米沢電気工事",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "invisible":true,
+            "reason":"Unityサンプルプロジェクトそのまま",
+            "imgurl":"images/prog/works/2019/myfirstgame.png",
+            "title":"FPS",
+            "author":"部員C",
+            "languages":[
+                "cs",
+                "unity"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2019/robotoncat.png",
+            "title":"robot on cat",
+            "author":"ねこがねころんだ",
+            "languages":[
+                "cs",
+                "unity"
+            ]
+        }
+    ],
+    "items2018": [
+        {
+            "imgurl":"images/prog/works/2018/うちゅうしみゅれーた.png",
+            "title":"うちゅうしみゅれーた",
+            "author": "わたぶ",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2018/4次元ルービックキューブ.png",
+            "title":"4次元ルービックキューブ",
+            "author":"りかさか",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2018/one_screen_action.png",
+            "title":"one screen action",
+            "author":"ちゃっぷりん",
+            "languages":[
+                "cs",
+                "unity"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2018/更科夜行.jfif",
+            "title":"更科夜行",
+            "author":"響一",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2018/色塗り運ゲー.png",
+            "title":"色塗り運ゲー",
+            "author":"ばけぬこ！",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        }
+    ],
+    "items2017":[
+        {
+            "imgurl":"images/prog/works/2017/Bullet_Challenge.png",
+            "title":"Bullet Challenge",
+            "author":"もべしぃ",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2017/U-C-ACT-Ghost_Buster.png",
+            "title":"U-C-ACT-Ghost Buster",
+            "author":"りうこつ",
+            "languages":[
+                "cs",
+                "unity"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2017/ルービック.png",
+            "title":"ルービック",
+            "author":"りかさか",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2017/脱出ゲーム（イライラ棒）.png",
+            "title":"脱出ゲーム（イライラ棒）",
+            "author":"りかさか",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2017/種々雑多なUnity詰め合わせ.png",
+            "title":"種々雑多なUnity詰め合わせ",
+            "author":"大神 博臣",
+            "languages":[
+                "cs",
+                "unity"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2017/なんちゃってタワーディフェンス.png",
+            "title":"なんちゃってタワーディフェンス",
+            "author": "ころえん",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2017/GRID'GE!-Prototype.png",
+            "title":"GRID'GE!-Prototype",
+            "author":  "ベイベー",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        }
+    ],
+    "items2016": [
+        {
+            "imgurl":"images/prog/works/2016/Acrobatic_Flight.png",
+            "title":"Acrobatic Flight",
+            "author": "ヤマサナエ",
+            "languages":[
+                "cs",
+                "unity"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2016/BASICSTG.png",
+            "title":"BASICSTG",
+            "author": "りうこつ",
+            "languages":[
+                "cs",
+                "unity"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2016/SIPEMOT.PNG",
+            "title":"SIPEMOT",
+            "author": "大神 博臣",
+            "subauthors":[
+                "音楽：ナキ",
+                "倉之",
+                "暇人ジョニー",
+                "画像：妖精",
+                "つなかん"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2016/STG.png",
+            "title":"STG",
+            "author":"もべしぃ"
+            
+        },
+        {
+            "imgurl":"images/prog/works/2016/TRAP_PRISON.png",
+            "title":"TRAP PRISON",
+            "author": "ちゃっぷりん",
+            "languages":[
+                "cs",
+                "unity"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2016/ブロック崩し.PNG",
+            "title":"ブロック崩し",
+            "author": "Mr.N",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "invisible":true,
+            "imgurl":"images/prog/works/2016/マインスイーパ.PNG",
+            "title":"マインスイーパ",
+            "author": "それがし"
+            
+        },
+        {
+            "imgurl":"images/prog/works/2016/解りにくいだけ.PNG",
+            "title":"解りにくいだけ",
+            "author":  "あぐろ",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "invisible":true,
+            "reason":"何だっけ",
+            "imgurl":"images/prog/works/2016/神経衰弱.PNG",
+            "title":"神経衰弱",
+            "author": "ナキ"
+        },
+        {
+            "visible":true,
+            "imgurl":"images/prog/works/2016/魔戦シュミレータ.PNG",
+            "title":"魔戦シュミレータ",
+            "author":  "ころえん"
+            
+        }
+    ],
+    "items2015": [
+        { 
+            "invisible":true,
+            "reason":"掲載未許可",
+            "imgurl":"images/prog/works/2015/Barrelgame.PNG",
+            "title":"Barrelgame",
+            "author": "thikuwamanager"
+            
+        },
+        {
+            "invisible":true,
+            "reason":"掲載未許可",
+            "imgurl":"images/prog/works/2015/DotEater.PNG",
+            "title":"DotEater",
+            "author": "K"
+            
+        },
+        {
+            "invisible":true,
+            "reason":"何だっけ",
+            "imgurl":"images/prog/works/2015/あいこでSHOW.PNG",
+            "title":"あいこでSHOW",
+            "author": "ナキ"
+            
+        },
+        {
+            "imgurl":"images/prog/works/2015/コイン拾いゲーム.PNG",
+            "title":"コイン拾いゲーム",
+            "author": "Mr.N"
+            
+        },
+       {
+            "invisible":true,
+            "reason":"使用素材の著作権で",
+            "imgurl":"images/prog/works/2015/スーパーカレンちゃんシスターズ.PNG",
+            "title":"スーパーカレンちゃんシスターズ",
+            "author":"ゆうや"
+            
+        },
+        {
+            "imgurl":"images/prog/works/2015/み～たす.PNG",
+            "title":"み～たす",
+            "author": "大神 博臣",
+            "subauthors":[
+                "音楽：ナキ",
+                "画像：傘井",
+                "妖精",
+                "鬼ノ孤児"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2015/メーメーダッシュ.PNG",
+            "title":"メーメーダッシュ",
+            "author": "ひまじんジョニー"
+            
+        },
+        {
+            "imgurl":"images/prog/works/2015/解りやすいだけ.png",
+            "title":"解りやすいだけ",
+            "author":  "ころえん",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        },
+        {
+            "imgurl":"images/prog/works/2015/超生命体ぐるりん.PNG",
+            "title":"超生命体ぐるりん",
+            "author":"ヤマサナエ",
+            "languages":[
+                "cpp",
+                "dxlib"
+            ]
+        }
+    ]
+}

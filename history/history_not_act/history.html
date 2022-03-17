@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico">
+    
+    <title>これまでのITCの歴史 - 情報技術クラブ ITC</title>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+<body>
+    <script type="text/javascript">header('');</script>
+
+    <!-- メインコンテンツ-->
+    <!-- ページの上にある画像と半透明の文字-->
+    <div id="dtm-headline">
+        <div class="headline-title">
+            <h2>history</h2>
+        </div>
+    </div>
+
+    <section class="wrapper m-3">
+        <div id="dtm-introduction">
+            <div id="app">
+                <h3 class="my-5">2020</h3>
+                <template v-for="(item,index) in items.contents2020">
+                    <div class="card">
+                        <div class ="card-header">
+                            <div class ="container-fluid">
+                                <div class="row">
+                                    <div class ="col-6">{{item.title}}</div>
+                                    <div class="col-6">
+                                        <div class ="float-right">
+                                            <template v-for="(text,index) in item.tags">
+                                                <span class="badge badge-primary mx-1">{{get_badge_name(text)}}</span>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <template v-for="(text,index) in item.descriptions">
+                                <p class="card-text" v-html="text"></p>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+
+                <h3 class="my-5">2019</h3>
+                <template v-for="(item,index) in items.contents2019">
+                    <div class="card">
+                        <div class ="card-header">
+                            <div class ="container-fluid">
+                                <div class="row">
+                                    <div class ="col-6">{{item.title}}</div>
+                                    <div class="col-6">
+                                        <div class ="float-right">
+                                            <template v-for="(text,index) in item.tags">
+                                                <span class="badge badge-primary mx-1">{{get_badge_name(text)}}</span>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <template v-for="(text,index) in item.descriptions">
+                                <p class="card-text" v-html="text"></p>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+
+                <h3 class="my-5">2018</h3>
+                <template v-for="(item,index) in items.contents2018">
+                    <div class="card">
+                        <div class ="card-header">
+                            <div class ="container-fluid">
+                                <div class="row">
+                                    <div class ="col-6">{{item.title}}</div>
+                                    <div class="col-6">
+                                        <div class ="float-right">
+                                            <template v-for="(text,index) in item.tags">
+                                                <span class="badge badge-primary mx-1">{{get_badge_name(text)}}</span>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <template v-for="(text,index) in item.descriptions">
+                                <p class="card-text" v-html="text"></p>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+
+                <h3 class="my-5">2017</h3>
+                <template v-for="(item,index) in items.contents2017">
+                    <div class="card">
+                        <div class ="card-header">
+                            <div class ="container-fluid">
+                                <div class="row">
+                                    <div class ="col-6">{{item.title}}</div>
+                                    <div class="col-6">
+                                        <div class ="float-right">
+                                            <template v-for="(text,index) in item.tags">
+                                                <span class="badge badge-primary mx-1">{{get_badge_name(text)}}</span>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <template v-for="(text,index) in item.descriptions">
+                                <p class="card-text" v-html="text"></p>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+
+                <h3 class="my-5">2016</h3>
+                <template v-for="(item,index) in items.contents2016">
+                    <div class="card">
+                        <div class ="card-header">
+                            <div class ="container-fluid">
+                                <div class="row">
+                                    <div class ="col-6">{{item.title}}</div>
+                                    <div class="col-6">
+                                        <div class ="float-right">
+                                            <template v-for="(text,index) in item.tags">
+                                                <span class="badge badge-primary mx-1">{{get_badge_name(text)}}</span>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <template v-for="(text,index) in item.descriptions">
+                                <p class="card-text" v-html="text"></p>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+
+                <h3 class="my-5">2015</h3>
+                <template v-for="(item,index) in items.contents2015">
+                    <div class="card">
+                        <div class ="card-header">
+                            <div class ="container-fluid">
+                                <div class="row">
+                                    <div class ="col-6">{{item.title}}</div>
+                                    <div class="col-6">
+                                        <div class ="float-right">
+                                            <template v-for="(text,index) in item.tags">
+                                                <span class="badge badge-primary mx-1">{{get_badge_name(text)}}</span>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <template v-for="(text,index) in item.descriptions">
+                                <p class="card-text" v-html="text"></p>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+                
+                <h3 class="my-5">2014</h3>
+                <template v-for="(item,index) in items.contents2014">
+                    <div class="card">
+                        <div class ="card-header">
+                            <div class ="container-fluid">
+                                <div class="row">
+                                    <div class ="col-6">{{item.title}}</div>
+                                    <div class="col-6">
+                                        <div class ="float-right">
+                                            <template v-for="(text,index) in item.tags">
+                                                <span class="badge badge-primary mx-1">{{get_badge_name(text)}}</span>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <template v-for="(text,index) in item.descriptions">
+                                <p class="card-text" v-html="text"></p>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+
+                <h3 class="my-5">2013</h3>
+                <template v-for="(item,index) in items.contents2013">
+                    <div class="card">
+                        <div class ="card-header">
+                            <div class ="container-fluid">
+                                <div class="row">
+                                    <div class ="col-6">{{item.title}}</div>
+                                    <div class="col-6">
+                                        <div class ="float-right">
+                                            <template v-for="(text,index) in item.tags">
+                                                <span class="badge badge-primary mx-1">{{get_badge_name(text)}}</span>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <template v-for="(text,index) in item.descriptions">
+                                <p class="card-text" v-html="text"></p>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+            </div>
+    </section>
+    <script type="text/javascript">footer('');</script>
+    <script type="text/javascript"  src="src/history.js"></script>
+    <!-- vue.jsの中で生成したtwitterの埋め込みのやつを表示させるため-->
+    <!-- vue.js使わなかったらこれいらない-->
+    <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>
+
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6de673773953f8c7',m:'qm849L8bX5AXmU.ENe5G6khgZxoRQeiyiYxFwOWx6Ks-1645011101-0-AS+Thu3EMDRKGObZ2zw/1gJZnTD/OH5DDH/kvbj3PfVi5Qv96FYm6VZGNUPDBWjX7Arn48pSB530ZGUxrFY8auPuMsG4ud9vLptjub6y2ymmQc52BS5rxZfxWFJpZaYfya5stluNaKVuazQCIdk4jOyyztSn0/dLR+o1xYtWWisgx61ndiyfFj710nTItXI8PA==',s:[0x0e943b4826,0x99d86facb0],}})();</script></body>
+</html>

@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="../src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../favicon.ico">
+    
+    
+    <title>DTM用語集 - 情報技術クラブ ITC</title>
+
+</head>
+<body>
+    <script type="text/javascript">header('../');</script>
+
+    <!-- メインコンテンツ-->
+    <!-- ページの上にある画像と半透明の文字-->
+    <div id="dtm-headline">
+        <div class="headline-title">
+            <h2>DTM</h2>
+        </div>
+    </div>
+
+    <section class="wrapper m-3">
+        <div id="dtm-introduction">
+            <h3>基本</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">用語</th>
+                        <th scope="col">説明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>DAW</td><td>ダウと読む。作曲ソフトのこと。Studio oneやCubaseなど</td></tr>
+                    <tr><td>MIDI</td><td>楽譜のようなもの。どのタイミングでどの音をどのように鳴らすかというデータ。DAWではMIDIにメロディを書き込む</td></tr>
+                    <tr><td>打ち込み</td><td>MIDIで音を並べること。<strong>⇔生演奏</strong></td></tr>
+                    <tr><td>生演奏</td><td>実際に自分で楽器を鳴らして作曲すること。MIDIと違いリアルで表情のある音色ができる。<strong>⇔打ち込み</strong></td></tr>
+                    <tr><td>トラック</td><td>楽器や音声のそれぞれ独立したレイヤーのようなもの</td></tr>
+                    <tr><td>インストゥルメント</td><td>楽器やシンセサイザーの音色データを主に指す</td></tr>
+                    <tr><td>生音</td><td>オーケストラで使われるような楽器のこと<strong>⇔シンセ</strong></td></tr>
+                    <tr><td>シンセ(シンセサイザー)</td><td>パソコンや電子機器で作られた音。<strong>⇔生音</strong></td></tr>
+                    <tr><td>BPM</td><td><strong>Beats per Minute</strong>の略。一分間になる4分音符の数。BPMが高いほとテンポが速い</td></tr>
+                    <tr><td>小節</td><td>曲の中での音のまとまりのこと</td></tr>
+                    <tr><td>拍子</td><td>1小節で何拍のリズムになっているかのこと。6/8拍子なら8分音符が6個一つの小節に入る</td></tr>
+                    <tr><td>音割れ</td><td>音量が大きすぎてDAWが処理しきれずにクリッピングする現象のこと。ノイズが混じるので曲を作るときはこれに気を付けなければならない。わざと音割れを起こして独特な音色を作るジャンルもある</td></tr>
+                    <tr><td>エフェクター</td><td>音色に効果を施すソフトのこと。</td></tr>
+                    <tr><td>VST(VSTプラグイン)</td><td>DAW内で扱える楽器を鳴らすソフトやエフェクターのこと。<strong>Studio one primeでは使えない。</strong></td></tr>
+                    <tr><td>サウンドフォント</td><td>DAWに読み込ませて使える楽器などの音源データ。主に<strong>sf2</strong>の拡張子で存在する。Web上にフリーのサウンドフォントも存在し、<strong>Studio one primeでも使える</strong>ので、調べてみる価値あり。</td></tr>
+                    <tr><td>コード</td><td>同時に鳴らす複数の音の塊のこと。</td></tr>
+                    <tr><td>コード進行</td><td>コードを組み合わせて順番に鳴らしていくこと。曲の雰囲気作りで重要</td></tr>
+                </tbody>
+            </table>
+            <h3>応用</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">説明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>ADSR</td><td></td></tr>
+                    <tr><td>歪み系</td><td></td></tr>
+                    <tr><td>EQ(イコライザー)</td><td></td></tr>
+                    <tr><td>ミックス</td><td></td></tr>
+                    <tr><td>マスタリング</td><td></td></tr>
+                    <tr><td>2-Mix</td><td></td></tr>
+                    <tr><td>M/S処理</td><td></td></tr>
+                </tbody>
+            </table>
+
+            <h3>エフェクター</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">説明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>リバーブ</td><td></td></tr>
+                    <tr><td>ディレイ</td><td></td></tr>
+                    <tr><td>空間系エフェクト</td><td></td></tr>
+                    <tr><td>コンプレッサー</td><td></td></tr>
+                    <tr><td>ディストーション</td><td></td></tr>
+                    <tr><td>ビットクラッシャー</td><td></td></tr>
+                    <tr><td></td><td></td></tr>
+                </tbody>
+            </table>
+            <h3>楽器</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">説明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>キック</td><td></td></tr>
+                    <tr><td>スネア</td><td></td></tr>
+                    <tr><td>ハイハット</td><td></td></tr>
+                    <tr><td>リバースシンバル</td><td></td></tr>
+                    <tr><td>スーパーSAW</td><td></td></tr>
+                    <tr><td>クワイア(Choir)</td><td>人間の声の音源のこと。</td></tr>
+                    <tr><td></td><td></td></tr>
+                </tbody>
+            </table>
+
+            <h3>ジャンル</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">説明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>フューチャーベース</td><td></td></tr>
+                    <tr><td>フューチャーコア</td><td></td></tr>
+                    <tr><td>アートコア</td><td></td></tr>
+                    <tr><td>ダブステップ</td><td></td></tr>
+                    <tr><td>ドラムンベース</td><td></td></tr>
+                    <tr><td>トランス</td><td></td></tr>
+                    <tr><td>オーケストラ</td><td></td></tr>
+                    <tr><td></td><td></td></tr>
+                </tbody>
+            </table>
+
+            <h3>その他</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">説明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>M3</td><td>春・秋の年2会行われる同人作曲即売会のこと。ITCも応募してアルバムを制作したりする。</td></tr>
+                    <tr><td>Sound cloud</td><td>通称サンクラ。アマチュアやプロなど幅広い人が作った曲を公開したりしている。</td></tr>
+                    <tr><td>音出し会</td><td>各自で作った曲を流す会のこと。アドバイスがもらえたり聞いたことのないジャンルの曲が聞ける。</td></tr>
+                    <tr><td>部会</td><td>普段のDTMの活動をする会のこと。</td></tr>
+                    <tr><td>治安が悪い</td><td>低音を利かせたり、ゆがませたりしたエグい音で構成された曲を表現するのに使う。</td></tr>
+                    <tr><td>声ネタ</td><td>インターネット上でプリセットとして販売されてたりする人間の声の入った音源を使った曲のこと。</td></tr>
+                    <tr><td>飛び道具</td><td>一見使えなさそうな音源のこと。上手に使うと意表を突けたり注目されたりする。</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="tutorial-guide">
+            <guide prev="" home="../dtm-forBeginners.html" next="" v-bind:showprev="false" v-bind:shownext="false" ></guide>
+        </div>
+    </section>
+
+    <script type="text/javascript">footer('../');</script>
+    <script type="text/javascript"  src="../src/tutorial-guide.js"></script> 
+
+</body>
+</html>

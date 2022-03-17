@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="../src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../favicon.ico">
+    
+    
+    <title>Prog用語集 - 情報技術クラブ ITC</title>
+</head>
+<body>
+    <script type="text/javascript">header('../');</script>
+
+    <!-- メインコンテンツ-->
+    <!-- ページの上にある画像と半透明の文字-->
+    <div id="prog-headline">
+        <div class="headline-title">
+            <h2>Prog</h2>
+        </div>
+    </div>
+
+    <section class="wrapper m-3">
+        <div id="prog-introduction">
+            <h3>基本</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">説明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Visual Studio</td><td></td></tr>
+                    <tr><td>VSCode</td><td></td></tr>
+                    <tr><td>コンパイル</td><td></td></tr>
+                    <tr><td>コンパイラ</td><td></td></tr>
+                    <tr><td>ライブラリ</td><td></td></tr>
+                    <tr><td>条件分岐</td><td></td></tr>
+                    <tr><td>動的計画法</td><td></td></tr>
+                    <tr><td>正規表現</td><td></td></tr>
+                    <tr><td>演算子</td><td></td></tr>
+                </tbody>
+            </table>
+            <h3>競プロ</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">説明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>AtCoder</td><td></td></tr>
+                    <tr><td>AC</td><td></td></tr>
+                    <tr><td>WA</td><td></td></tr>
+                    <tr><td>競技プログラミング</td><td></td></tr>
+                </tbody>
+            </table>
+            <h3>その他</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">説明</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>デジゲー博</td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="tutorial-guide">
+            <guide prev="" home="../prog-forBeginners.html" next="" v-bind:showprev="false" v-bind:shownext="false" ></guide>
+        </div>
+    </section>
+
+    <script type="text/javascript">footer('../');</script>
+    <script type="text/javascript"  src="../src/tutorial-guide.js"></script> 
+
+</body>
+</html>

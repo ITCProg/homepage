@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&display=swap" rel="stylesheet">
+    
+    <title>Prog部に入りたい人のために - 情報技術クラブ ITC</title>
+</head>
+<body>
+    <div id="top"></div>
+    <script type="text/javascript">gotoTop('');</script>
+    <script type="text/javascript">header('');</script>
+
+    <!-- メインコンテンツ-->
+    <!-- ページの上にある画像と半透明の文字-->
+    <div id="prog-headline">
+        <div class="headline-title">
+            Prog
+        </div>
+    </div>
+
+    <section class="wrapper m-3">
+        <div id="prog-introduction">
+            <section class="my-4">
+                <p>コロナウイルスにより、サークル活動は<strong>6月以降</strong>になることが予想されます。</p>
+                <p>そこで、ITCProg部へ入部を希望している人に向けて<strong>無料でプログラミングのできるソフト(Visual Studio)の導入・操作方法</strong>を紹介します。</p>
+                <p>実際にサークル内で例年行っている初心者講習の内容とほぼ変わらないので、サークル部員と同等の活動を自力で行えると思います。</p>
+            </section>
+            <section class="my-4">
+                <p>もし、<strong>さらに高度なことを行いたい・先輩にプログラミングについて相談したい・自分の作品を見てほしい</strong>というような方がいましたら、ITC新歓twitterのDMの方でぜひご気軽に連絡してください。</p>
+                <p>また、このサイトはこちらのサイトをもとに制作しています。C++の基本的な文法の学習はこちらでやっていただくといいと思います。</p>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="https://atcoder.jp/contests/APG4b"><h5 class="card-text">C++入門 AtCoder Programming Guide for beginners</h5></a>
+                    </div>
+                </div>
+            </section>
+
+            <h3>環境構築</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">タイトル</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1.</td><td><a href="tutorial-prog/beginner-cpp1.html">VisualStudio 2019(無料)のインストール</a></td></tr>
+                    <tr><td>2.</td><td><a href="tutorial-prog/beginner-cpp2.html">プログラムを作ってみる</a></td></tr>
+                    <tr><td></td><td></td></tr>
+                    <tr><td>A.</td><td><a href="tutorial-prog/words1.html">付録 - 用語集</a></td></tr>
+                </tbody>
+            </table>
+
+            <h3>C++文法</h3>
+            <div class="card">
+                <div class="card-header">
+                    <p>C++の文法の学習はこちらでお願いします。解説をすべて用意するのは作業量がとてつもなくなるのでご了承ください。</p>
+                    <p>3.04構造体まで教える予定です。そこまでできていれば何も言うことはないです。そこまでできなくてもサークルの講習会で教えるので心配いらないです！</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://atcoder.jp/contests/APG4b"><h5 class="card-text">C++入門 AtCoder Programming Guide for beginners</h5></a>
+                </div>
+            </div>
+
+            <h3>Dxライブラリ編</h3>
+            <p>ゲームを作るためのC++ライブラリであるDxライブラリの扱い方を紹介しています。</p>
+            <p>関数の使い方までの知識を知っているほうがいいと思います。</p>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">タイトル</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1.</td><td><a href="tutorial-prog/dxLib1.html">ゲームをC++で作る</a></td></tr>
+                    <tr><td>2.</td><td><a href="tutorial-prog/dxLib2.html">Dxライブラリの導入</a></td></tr>
+                    <tr><td>3.</td><td><a href="tutorial-prog/dxLib3.html">画像を表示する</a></td></tr>
+                </tbody>
+            </table>
+
+            <h3>Webサイト制作編</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">タイトル</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1.</td><td><a href="tutorial-prog/web1.html">環境構築</a></td></tr>
+                    <tr><td>2.</td><td><a href="tutorial-prog/bootstrap1.html">bootstrapでサイトの見栄えをよくする</a></td></tr>
+                    <tr><td>3.</td><td><a href="tutorial-prog/web3.html"></a></td></tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- ページの内容-->
+    </section>
+    <script type="text/javascript">footer('');</script>
+
+</body>
+</html>

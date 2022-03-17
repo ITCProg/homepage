@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- OGPの設定-->
+    <meta name="og:title" content="情報技術クラブ ITC -prog部作品紹介-">
+    <meta property="og:url" content="https://www.ed.tus.ac.jp/tusitclub/prog-works.html">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="prog部の今までに制作した作品の詳しい紹介をします。" />
+    <meta property="og:site_name" content="情報技術クラブ" />
+    <meta property="og:image" content="https://www.ed.tus.ac.jp/tusitclub/images/thumbnail-example.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@tusitclub" />
+    <meta name="twitter:creator" content="@tusitclub">
+    <meta name="twitter:image" content="https://www.ed.tus.ac.jp/tusitclub/images/thumbnail-example.png" />
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/prog-works.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&display=swap" rel="stylesheet">
+    <title>Prog部作品集 - 情報技術クラブ ITC</title>
+
+</head>
+<body>
+    <div id="top"></div>
+    <script type="text/javascript">gotoTop('');</script>
+    <script type="text/javascript">header('');</script>
+    <!-- メインコンテンツ-->
+    <div id="prog-headline">
+        <div class="headline-title">
+            Prog
+        </div>
+    </div>
+
+    <section class="wrapper">
+
+        <div id="prog-introduction" class=" my-5">
+            <h2>prog部作品集</h2>
+            <p>今までに制作した作品の詳しい紹介をします</p>
+            <p>例年、理大祭・デジゲー博でCDを頒布しています。</p>
+            <p>作者名の後に(OB)と表示されていれば、その作者は現在OBであることを表しています。</p>
+            <p>作品の画像をクリックすると拡大表示ができます。</p>
+            <p>作品の右下に
+                <i class="fas fa-newspaper"></i>
+                が表示されている場合、クリックすると詳しい説明を見ることができます。
+            </p>
+        </div>
+
+    </section>
+
+    <section class="wrapper-wide">
+       
+        <div id="prog-works" class="container-fluid">
+
+            <h3 class="p-1">2020年度</h3>
+            <div class="row m-sm-0 m-md-3">
+                <prog-work v-for="(item,index) in items.items2020" v-bind:item='item' v-bind:index="index" v-bind:name="'p2020'" v-bind:isob='isOB' v-bind:getname='getName' v-bind:getcolor='getColor'></prog-work>
+            </div>
+            <h3 class="p-1">2019年度</h3>
+
+            <!-- 紹介動画-->
+            <div class="row m-sm-0 m-md-3">
+                <div class="col-sm-0 col-md-2"></div>
+                <div class="col-sm-12 col-md-7">
+                    <div class="mx-auto">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2DpXeUbmjs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="m-5">
+
+            <!-- rowクラスで一つの列。意図的に列を分けたいならrowクラスを新しく作る -->
+           
+            <div class="row m-sm-0 m-md-3">
+                <prog-work v-for="(item,index) in items.items2019" v-bind:item='item' v-bind:index="index" v-bind:name="'p2019'" v-bind:isob='isOB' v-bind:getname='getName' v-bind:getcolor='getColor'></prog-work>
+            </div>
+
+            <h3 class="p-1">2018年度</h3>
+            <div class="row m-sm-0 m-md-3">
+                <prog-work v-for="(item,index) in items.items2018" v-bind:item='item' v-bind:index="index" v-bind:name="'p2018'" v-bind:isob='isOB' v-bind:getname='getName' v-bind:getcolor='getColor'></prog-work>
+            </div>
+
+            <h3 class="p-1">2017年度</h3>
+            <div class="row m-sm-0 m-md-3">
+                <prog-work v-for="(item,index) in items.items2017" v-bind:item='item' v-bind:index="index" v-bind:name="'p2017'" v-bind:isob='isOB' v-bind:getname='getName' v-bind:getcolor='getColor'></prog-work>
+            </div>
+
+            <h3 class="p-1">2016年度</h3>
+            <div class="row m-sm-0 m-md-3">
+                <prog-work v-for="(item,index) in items.items2016" v-bind:item='item' v-bind:index="index" v-bind:name="'p2016'" v-bind:isob='isOB' v-bind:getname='getName' v-bind:getcolor='getColor'></prog-work>
+            </div>
+
+            <h3 class="p-1">2015年度</h3>
+            <div class="row m-sm-0 m-md-3">
+                <prog-work v-for="(item,index) in items.items2015" v-bind:item='item' v-bind:index="index" v-bind:name="'p2015'" v-bind:isob='isOB' v-bind:getname='getName' v-bind:getcolor='getColor'></prog-work>
+            </div>
+
+        </div>
+    </section>
+    <script type="text/javascript">footer('');</script>
+    <!--作品データから紹介カードを生成-->
+    <script type="text/javascript"  src="src/prog-works.js"></script>
+
+</body>
+</html>

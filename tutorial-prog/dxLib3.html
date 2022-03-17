@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="../src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../favicon.ico">
+    
+    
+    <title>画像を表示する - 情報技術クラブ ITC</title>
+    <!--ソースコードを表示するため-->
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <link rel="stylesheet" href="../css/sonOfObsidian.css">
+</head>
+<body>
+    <script type="text/javascript">header('../');</script>
+
+    <!-- メインコンテンツ-->
+    <!-- ページの上にある画像と半透明の文字-->
+    <div id="prog-headline">
+        <div class="headline-title">
+            <h2>Prog</h2>
+        </div>
+    </div>
+    <section class="wrapper m-3">
+        <div id="prog-introduction">
+            <p>今回は画像をロードして表示するプログラムを作ります。</p>
+            <p>Dxライブラリでは画像をロードする関数・表示する関数がそれぞれ用意されています。</p>
+            <p>画像の拡張子は<strong>BMP,JPEG,PNG,DDS,ARGB,TGA</strong>の6種類に対応しています。</p>
+            <h3>画像をロード</h3>
+            <p>画像をロードするにはこの関数を使います。</p>
+            <div class="card">
+                <div class="card-header">
+                    <h5><code>int LoadGraph( char *FileName );</code></h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-sm table-borderless table-striped">
+                        <tbody>
+                            <tr><td>引数</td><td> char *FileName </td><td>ロードする画像のパス(文字列)</td></tr>
+                            <tr><td>返り値</td><td>int型</td><td>画像をDxライブラリ内で扱うためのID</td></tr>
+                            <tr><td></td><td></td><td>-1 : 画像が読み込めなかった</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <h3>画像を表示</h3>
+            <p>画像を表示するにはこの関数を使います。</p>
+            <div class="card">
+                <div class="card-header">
+                    <h5><code>int DrawGraph( int x, int y, int GrHandle, int TransFlag ) ;</code></h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-sm table-borderless table-striped">
+                        <tbody>
+                            <tr><td>引数</td><td>int x, int y</td><td>画像を表示させる座標</td></tr>
+                            <tr><td></td><td>int GrHandle</td><td>表示する画像のID</td></tr>
+                            <tr><td></td><td> int TransFlag</td><td>画像の透明な部分を考慮するか(PNGなど)</td></tr>
+                            <tr><td>返り値</td><td>int型</td><td>0 : 成功</td></tr>
+                            <tr><td></td><td></td><td>-1 : エラー発生(返り値は基本使わないので無視してOK)</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <h3>実際にやってみる</h3>
+            <p>これらの関数を使って実際に画像を表示させてみましょう。</p>
+            <p>画像はソースコードと同じ場所にフォルダを作り、その中に表示させたい画像を入れましょう。(もし表示されない場合、画像フォルダを別のところに置いておく必要があるかもしれません。)</p>
+
+            <img src="../images/prog/tutorial/DxLib3/dxlibPicture.PNG" alt="" class="w-100 m-4">
+            <pre class="prettyprint linenums p-2 m-4">
+
+#include "DxLib.h"
+
+int WINAPI WinMain(HINSTANCE,HINSTANCE,LPSTR,int){
+    ChangeWindowMode( TRUE ); // ウィンドウモードに設定
+    DxLib_Init();   // DXライブラリ初期化処理
+
+    int Handle= LoadGraph( "画像/キャラクタ00.png" ); // 画像をロードしてIDを保存する
+    DrawGraph( 50, 100, Handle, TRUE ); // データハンドルを使って画像を描画
+
+    WaitKey();     // キー入力があるまで待機
+    DxLib_End();   // DXライブラリ終了処理
+    return 0;
+}
+</pre>
+        </div>
+        <div id="tutorial-guide">
+            <guide prev="dxLib2.html" home="../prog-forBeginners.html" next="" v-bind:showprev="true" v-bind:shownext="false" ></guide>
+        </div>
+    </section>
+
+    <script type="text/javascript">footer('../');</script>
+    <script type="text/javascript"  src="../src/tutorial-guide.js"></script> 
+
+</body>
+</html>

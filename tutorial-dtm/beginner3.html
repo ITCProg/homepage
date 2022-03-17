@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="../src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../favicon.ico">
+    
+    
+    <title>音を出してみる - 情報技術クラブ ITC</title>
+
+</head>
+<body>
+    <script type="text/javascript">header('../');</script>
+
+    <!-- メインコンテンツ-->
+    <!-- ページの上にある画像と半透明の文字-->
+    <div id="dtm-headline">
+        <div class="headline-title">
+            <h2>DTM</h2>
+        </div>
+    </div>
+    <section class="wrapper m-3">
+        <div id="dtm-introduction">
+            <p>Studio one primeの起動が無事にできたら早速音を鳴らしてみましょう。</p>
+            <p>Studio one primeを起動するとこのような画面が出てくると思います。<strong>「新規ソング作成」</strong>をクリックしましょう。</p>
+            <div class="col-12 col-md-12 my-4">
+                <img src="../images/dtm/tutorial/studiooneMenu.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>するとこのような項目が出てくるので、特に何も設定しないで右下の「OK」ボタンをクリックしましょう。</p>
+            <div class="col-12 col-md-6 my-4">
+                <img src="../images/dtm/tutorial/studiooneProject.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>するとこの画面になります。基本的にこの画面から曲を作っていくことになります！</p>
+            <div class="col-12 col-md-12 my-4">
+                <img src="../images/dtm/tutorial/studiooneProjectMenu.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>右の<strong>「インストゥルメント」</strong>をクリックし、楽器を選択しましょう。</p>
+            <p>Artist Instrumentsフォルダを見ると、楽器がいろいろ出てきますが、好きな楽器を選択しましょう。ここでは<strong>Keyboards/Electric Piano</strong>を使います。</p>
+            <p>クリックで選択できたら左の領域にドラッグアンドドロップします。すると下のようなウィンドウが出てきます。</p>
+            <div class="col-12 col-md-12 my-4">
+                <img src="../images/dtm/tutorial/studiooneInstrument.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>キーボードを押すと楽器のプレビューができたりします。きちんと音が出たらウィンドウを閉じましょう。</p>
+            <p>左のElectric Pianoの項目がありますが、領域をダブルクリックするとこのように長方形が現れると思います。</p>
+            <div class="col-12 col-md-12 my-4">
+                <img src="../images/dtm/tutorial/studiooneInstrument2.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>長方形の縁の部分をダブルクリック(真ん中をダブルクリックすると長方形が分割されるので注意！)すると<strong>「ピアノロール」</strong>と呼ばれる画面が現れます。</p>
+            <div class="col-12 col-md-12 my-4">
+                <img src="../images/dtm/tutorial/studiooneInstrument3.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>ピアノロールをクリックしながら横へずらすと長方形が現れます。下の画像ではレの位置に4分音符ができました。</p>
+            <p>これでSpaceキーを押すと再生できます。(もう一度Spaceキーを押すと再生が止まります。)</p>
+            <p>(再生位置を最初に戻したければテンキーの「. DEL」キーを押すか、コンマ「,」キーを押すと最初に戻ります)</p>
+            <p><strong>ピアノロール</strong>では上下が音の高さ、左右が曲の再生位置になります。</p>
+            <div class="col-12 col-md-12 my-4">
+                <img src="../images/dtm/tutorial/studioonePianoroll.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+            <p>それでは適当に音を並べていきましょう！</p>
+            <p>ピアノロールの左右が狭い人は画像の上にある青い長方形の端をドラッグすると長さを変えることができます。</p>
+            <div class="col-12 col-md-12 my-4">
+                <img src="../images/dtm/tutorial/studioonePianoroll2.png" alt="" class="img-fluid mx-auto d-block">
+            </div>
+        </div>
+        <div id="tutorial-guide">
+            <guide prev="beginner2.html" home="../dtm-forBeginners.html" next="" v-bind:showprev="true" v-bind:shownext="false" ></guide>
+        </div>
+    </section>
+
+    <script type="text/javascript">footer('../');</script>
+    <script type="text/javascript"  src="../src/tutorial-guide.js"></script> 
+
+</body>
+</html>

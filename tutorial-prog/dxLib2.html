@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="../src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../favicon.ico">
+    
+    
+    <title>Dxライブラリの導入 - 情報技術クラブ ITC</title>
+    <!--ソースコードを表示するため-->
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <link rel="stylesheet" href="../css/sonOfObsidian.css">
+</head>
+<body>
+    <script type="text/javascript">header('../');</script>
+
+    <!-- メインコンテンツ-->
+    <!-- ページの上にある画像と半透明の文字-->
+    <div id="prog-headline">
+        <div class="headline-title">
+            <h2>Prog</h2>
+        </div>
+    </div>
+
+    <section class="wrapper m-3">
+        <div id="prog-introduction">
+            <p>DxライブラリをVisual Studioで使えるようにするには手順にそって設定を行う必要があります。</p>
+            <p>このページでは手順を詳しく説明していきます。</p>
+            <h3>Dxライブラリのダウンロード</h3>
+            <p>Dxライブラリのダウンロードはこのページからできます。</p>
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-4 col-sm-1 m-2">
+                        <img src="../images/prog/tutorial/DxLib2/DxLogo.jpg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-12 col-sm-8">
+                        <div class="card-body">
+                            <a href=" https://dxlib.xsrv.jp/index.html">
+                                <h5 class="card-title">Dxライブラリトップページへ</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Dxライブラリのトップページへ飛び下へ移動すると、「DXライブラリのダウンロード」という項目が出てきます。</p>
+            <img src="../images/prog/tutorial/DxLib2/dxlibDownload.PNG" alt="" class="w-100 m-4">
+            <p>今回はWindows版をダウンロードします。「ＤＸライブラリ Windows版 VisualStudio( C++ )用(Ver3.21d)をダウンロードする」をクリックしましょう。</p>
+            <img src="../images/prog/tutorial/DxLib2/dxlibWindowsDownload.PNG" alt="" class="w-100 m-4">
+            <p>するとZipファイルがダウンロードされるので、展開しましょう。</p>
+            <img src="../images/prog/tutorial/DxLib2/dxlibZip.PNG" alt="" class="w-100 m-4">
+            <p>Zipファイルの展開は<strong>右クリック→すべて展開</strong>という項目を選びます。</p>
+            <img src="../images/prog/tutorial/DxLib2/dxlibUnzip.PNG" alt="" class="w-100 m-4">
+            <h3>プロジェクトの作成</h3>
+            <p>Dxライブラリを使いVisual Studioでプログラミングしていくための準備をします。</p>
+            <p>導入はこちらのサイトの説明を見ながらやっていくとできます。</p>
+            <div class="card">
+                <div class="card-body">
+                    <a href="https://dxlib.xsrv.jp/use/dxuse_vscom2019.html#R2"><h5 class="card-text">Dxライブラリでプロジェクトを作成する手順</h5></a>
+                </div>
+            </div>
+            <h3>プログラムを組んでみる</h3>
+            <p>Visual StudioのプロジェクトでDxライブラリを使えるようになったら、プログラムを書いて実際に動かしてみましょう。</p>
+            <pre class="prettyprint linenums p-2 m-4">
+
+#include "DxLib.h"
+
+// プログラムは WinMain から始まります
+int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow )
+{
+    if( DxLib_Init() == -1 )		// ＤＸライブラリ初期化処理
+    {
+        return -1 ;			// エラーが起きたら直ちに終了
+    }
+
+    DrawPixel( 320 , 240 , GetColor( 255,255,255 ) ) ;	// 点を打つ
+
+    WaitKey() ;				// キー入力待ち
+
+    DxLib_End() ;				// ＤＸライブラリ使用の終了処理
+
+    return 0 ;				// ソフトの終了 
+}
+</pre>
+            <p>このプログラムはこちらと同じものです。</p>
+            <div class="card">
+                <div class="card-body">
+                    <a href="https://dxlib.xsrv.jp/use/dxuse_vscom2019.html#R6"><h5 class="card-text">Dxライブラリでプロジェクトを作成する手順</h5></a>
+                </div>
+            </div>
+            <p>このプログラムを実行(Ctrl + F5)すると、画面が黒くなり、画面の中心に白い点が見えると思います。(小さいので見えずらいかもしれません！)</p>
+            <p>何らかのキーを押すとプログラムが終了します。</p>
+            <p>基本的にDxライブラリのプログラムは</p>
+            <p><code>#include "DxLib.h"</code>をし、Dxライブラリを使えるようにする。</p>
+            <p>プログラムは<code>WinMain</code>の波カッコの中に書いていく</p>
+            <p>ことになります。</p>
+            <h3>ウィンドウモードに切り替える</h3>
+            <p>ただ、このままだとフルスクリーンでプログラムが実行されてしまい、不便なのでウィンドウモードで実行できるようにしましょう。</p>
+
+            <p>ウィンドウモードに切り替えるには、<code>DxLib_Init()</code>関数を実行する<strong>前</strong>に</p>
+            <p><code>ChangeWindowMode(TRUE);</code>を実行すれば大丈夫です。(<code>TRUE</code>は<code>true</code>でも問題ありません。)</p>
+            <pre class="prettyprint linenums p-2">
+#include "DxLib.h"
+
+// プログラムは WinMain から始まります
+int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow )
+{
+    ChangeWindowMode(TRUE);         // ウィンドウモードに設定
+    if( DxLib_Init() == -1 )        // ＤＸライブラリ初期化処理
+    {
+        return -1 ;			// エラーが起きたら直ちに終了
+    }
+
+    DrawPixel( 320 , 240 , GetColor( 255,255,255 ) ) ;	// 点を打つ
+
+    WaitKey() ;				// キー入力待ち
+
+    DxLib_End() ;				// ＤＸライブラリ使用の終了処理
+
+    return 0 ;				// ソフトの終了 
+}
+</pre>
+            <p>これでウィンドウモードで実行されるようになりました！</p>
+            <p>次のページからゲームを作るための詳しいやり方を説明していきます！</p>
+        </div>
+        <div id="tutorial-guide">
+            <guide prev="dxLib1.html" home="../prog-forBeginners.html" next="dxLib3.html" v-bind:showprev="true" v-bind:shownext="true" ></guide>
+        </div>
+    </section>
+
+    <script type="text/javascript">footer('../');</script>
+    <script type="text/javascript"  src="../src/tutorial-guide.js"></script> 
+
+</body>
+</html>
