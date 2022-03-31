@@ -23,9 +23,11 @@
 	    	"embed":"<iframe width='560' height='315' src='https://www.youtube.com/embed/eZ8E0lP5wR8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 	    	"title":"sci-5",
 	    	"authors":[
-	    		"signum",
 	    		"xeam"
-	    	]
+	    	],
+			"subauthors":[
+				"signum"
+			]
     	},
 		{
 	    	"embed":"<iframe width='560' height='315' src='https://www.youtube.com/embed/S46IiC8u63Q' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
@@ -42,6 +44,27 @@
 	    	"title":"A trail of wind",
 	    	"authors":[
 	    		"Yuhgao"
+	    	]
+    	},
+		{
+	    	"embed":"<iframe width='560' height='315' src='https://www.youtube.com/embed/ghBgDv-lCTI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+	    	"title":"モーショングラフィックスつくってみた",
+	    	"authors":[
+	    		"おるざと"
+	    	]
+    	},
+		{
+	    	"embed":"<iframe width='560' height='315' src='https://www.youtube.com/embed/AjRu2jD97u4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+	    	"title":"【駄作】某使徒っぽい何か【挫折】",
+	    	"authors":[
+	    		"remoon"
+	    	]
+    	},
+		{
+	    	"embed":"<iframe width='560' height='315' src='https://www.youtube.com/embed/UKzfNmNB7vo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+	    	"title":"匿名希望.mp4",
+	    	"authors":[
+	    		"照井"
 	    	]
     	}
 
