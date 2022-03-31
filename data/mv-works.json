@@ -26,6 +26,24 @@
 	    		"signum",
 	    		"xeam"
 	    	]
+    	},
+		{
+	    	"embed":"<iframe width='560' height='315' src='https://www.youtube.com/embed/S46IiC8u63Q' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+	    	"title":"しーむの3DCGまとめ",
+	    	"authors":[
+	    		"xeam"
+	    	],
+			"subauthors":[
+				"signum"
+			]
+    	},
+		{
+	    	"embed":"<iframe width='560' height='315' src='https://www.youtube.com/embed/1dbsTybGIQk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+	    	"title":"A trail of wind",
+	    	"authors":[
+	    		"Yuhgao"
+	    	]
     	}
+
     ]
 }
