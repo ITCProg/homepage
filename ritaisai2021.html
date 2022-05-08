@@ -83,7 +83,7 @@
     </section>
 
     <section class="wrapper-wide">
-       
+    
         <div id="prog-works" class="container-fluid">
             <h3 class="p-1">Prog部作品</h3>
             
@@ -93,85 +93,78 @@
             </div>
         </div>
 
-           <p>下記リンクから実際に遊べます！</p>
-           <div id="link-table ">
+        <p>下記リンクから実際に遊べます！</p>
+        <div id="link-table ">
             <table class="table table-bordered table-striped mt-4">
                 <thead>
                     <tr>
-                        <th scope="col">作品
-                        </th>
+                        <th scope="col">作品</th>
                         <th scope="col">リンク</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td class="align-middle">
-                          <b>Recipe Proopser</b>
+                            <b>Recipe Proopser</b>
                         </td>
                         <td><a href="https://recipeproposer.cogon-k.com">https://recipeproposer.cogon-k.com</a></td>
                         
                     </tr>
                     <tr>
                         <td class="align-middle">
-                          <b>Circle2</b>
+                            <b>Circle2</b>
                         </td>
                         <td>
                             <a href="https://unityroom.com/games/circle_ver2">https://unityroom.com/games/circle_ver2</a>
-
                         </td>
-                        
                     </tr>
-               
-            </tbody>
+                </tbody>
             
             </table>
         </div>
-
     </section>
 
     <section class="wrapper-wide">
-      <!-- 作品を乗せる場所 -->
-      <!-- 1列に4個のレイアウトになっている。(ウィンドウが小さければ1列に2個) rowクラスで一つの列。意図的に列を分けたいならrowクラスを新しく作る-->
-      <!-- 一つのページにたくさんの画像を乗せると読み込み速度が低下します。適宜画像の解像度を下げてください。-->
-      <div id="cg-works" class="container-fluid">
-          <h3 class="p-1">CG部作品</h3>
-          <div class="row m-md-3" >
-              <cg-card v-for="(item,index) in items.ritaisai2021" v-bind:item="item" v-bind:name="'other2020'" v-bind:index="index" v-bind:isob="isOB(item.author)"  v-bind:cardtype="getCardType(item.card_type)" ></cg-modal>
-              </div>
-      </div>
+    <!-- 作品を乗せる場所 -->
+    <!-- 1列に4個のレイアウトになっている。(ウィンドウが小さければ1列に2個) rowクラスで一つの列。意図的に列を分けたいならrowクラスを新しく作る-->
+    <!-- 一つのページにたくさんの画像を乗せると読み込み速度が低下します。適宜画像の解像度を下げてください。-->
+        <div id="cg-works" class="container-fluid">
+            <h3 class="p-1">CG部作品</h3>
+            <div class="row m-md-3" >
+                <cg-card v-for="(item,index) in items.ritaisai2021" v-bind:item="item" v-bind:name="'other2020'" v-bind:index="index" v-bind:isob="isOB(item.author)"  v-bind:cardtype="getCardType(item.card_type)" ></cg-modal>
+            </div>
+        </div>
 
-
-
-      <p>CG部ですが小説も書いてます．</p>
-      <div id="link-table ">
-       <table class="table table-bordered table-striped mt-4">
-           <thead>
-               <tr>
-                   <th scope="col">作者
-                   </th>
-                   <th scope="col">タイトル(クリックで読むことができます)</th>
-               </tr>
-           </thead>
-           <tbody>
-               <tr>
-                   <td class="align-middle">
+        <p>CG部ですが小説も書いてます．</p>
+        <div id="link-table ">
+            <table class="table table-bordered table-striped mt-4">
+                <thead>
+                    <tr>
+                        <th scope="col">作者
+                        </th>
+                        <th scope="col">タイトル(クリックで読むことができます)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="align-middle">
                         霜月
-                   </td>
-                   <td>
-                    <a href="images/cg/works/ritaisai/箱庭の少女_霜月.pdf" download>箱庭の少女</a></td>
-               </tr>
-               <tr>
-                <td class="align-middle">
-                     rosy
-                </td>
-                <td>
-                 <a href="images/cg/works/ritaisai/愛_rosy.pdf" download>愛</a></td>
-            </tr>
-       </tbody>
-       </table>
-   </div>
-
-
+                        </td>
+                        <td>
+                        <a href="images/cg/works/ritaisai/箱庭の少女_霜月.pdf" download>箱庭の少女</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="align-middle">
+                        rosy
+                        </td>
+                        <td>
+                        <a href="images/cg/works/ritaisai/愛_rosy.pdf" download>愛</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
     
       <section class="wrapper-wide">
@@ -200,25 +193,25 @@
     </section>
     <section class="wrapper-wide">
        
-      <div id="prog-works" class="container-fluid">
-        <div id="link-introduction">
-            <h3 class="p-1">MV部作品</h3>
-        </div>
-          <!-- 紹介動画-->
-          <p>タイトル：2021理大祭「sci-5」</p>
-          <p>音楽：signum　動画編集：xeam</p>
-          <div class="row m-sm-0 m-md-3">
-            <div class="col-sm-0 col-md-2"></div>
-            <div class="col-sm-12 col-md-7">
-                <div class="mx-auto">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eZ8E0lP5wR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="prog-works" class="container-fluid">
+            <div id="link-introduction">
+                <h3 class="p-1">MV部作品</h3>
+            </div>
+            <!-- 紹介動画-->
+            <p>タイトル：2021理大祭「sci-5」</p>
+            <p>音楽：signum　動画編集：xeam</p>
+            <div class="row m-sm-0 m-md-3">
+                <div class="col-sm-0 col-md-2"></div>
+                <div class="col-sm-12 col-md-7">
+                    <div class="mx-auto">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eZ8E0lP5wR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-      </div>
-  </section>
+    </section>
 
 
 
