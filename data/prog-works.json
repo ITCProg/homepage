@@ -47,7 +47,7 @@
         "unity":{
             "name":"Unity",
             "color":1
-        }
+        },
     },
     "item-template":{
         "invisible":"trueだと表示されなくなります",
@@ -102,6 +102,55 @@
             ],
             "languages":[
                 "unity"
+            ]
+        }
+    ],
+
+    "ritaisai2022":[
+        {
+            "imgurl": "images/prog/works/ritaisai2022/kariumi.png",
+            "title": "The guardian",
+            "author": "kariumi",
+            "captions": [
+                "りんごを回収しながらボスを撃破するアクションゲームです．"
+            ],
+            "languages": [
+                "unity",
+                "cs"
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2022/stone.png",
+            "title": "Be Colorful",
+            "author": "stone",
+            "captions": [
+                "ターン制の陣取りゲームです．マス目が六角形、一人が3色を持つという特徴があります．"
+            ],
+            "languages": [
+                "unity",
+                "cs"
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2022/sh1mizu.png",
+            "title": "ブロック崩し",
+            "author": "sh1mizu",
+            "captions": [
+                "玉を反射させてブロックをすべて壊すゲームです．"
+            ],
+            "languages": [
+
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2022/anman.png",
+            "title": "自作OS",
+            "author": "anman",
+            "captions": [
+                "簡単なOSを作りました．"
+            ],
+            "languages": [
+
             ]
         }
     ],
