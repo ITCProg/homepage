@@ -64,28 +64,26 @@
     <script type="text/javascript">gotoTop('');</script>
     <script type="text/javascript">header('');</script>
     <!-- メインコンテンツ-->
-    <div id="ritaisai-headline">
-        <div class="ritaisai-headline-title">
-            理大祭
-        </div>
-    </div>
+    <img src="images/ritaisai2022.png" class="col-12 p-0 m-0" id="headline">
 
     <section class="wrapper-wide">
-        <div id="prog-introduction" class=" my-5">
-            <h2>2022年度理大祭　作品集</h2>
-            <p>理大祭に出展された、ゲーム・Webサイト・イラスト・楽曲・動画等の作品紹介です。</p>
-            <p>作品の画像をクリックすると拡大表示ができます。</p>
-            <p>作品の右下に
-                <i class="fas fa-newspaper"></i>
-                が表示されている場合、クリックすると詳しい説明を見ることができます。
-            </p>
+        <div class=" my-5">
+            <h2 class="px-3">2022年度理大祭　　作品集</h2>
+            <div class="m-4">
+                <p>理大祭に出展された、ゲーム・Webサイト・イラスト・楽曲・動画等の作品紹介です。</p>
+                <p>作品の画像をクリックすると拡大表示ができます。</p>
+                <p>作品の右下に
+                    <i class="fas fa-newspaper"></i>
+                    が表示されている場合、クリックすると詳しい説明を見ることができます。
+                </p>
+            </div>
         </div>
     </section>
 
     <section class="wrapper-wide">
         <div id="prog-works" class="container-fluid">
             <h3 class="p-1">Prog部作品</h3>
-            <div class="row m-sm-0 m-md-3">
+            <div class="row m-3">
                 <prog-work
                         v-for="(item,index) in items.ritaisai2022"
                         v-bind:item='item'
@@ -97,17 +95,18 @@
                 </prog-work>
             </div>
 
-            <h4>Webサイト</h4>
-            <p>下記リンクから実際に遊べます！</p>
-            <div id="link-table">
-                <table class="table table-bordered table-striped mt-4">
-                    <thead>
-                        <tr>
-                            <th scope="col">作品</th>
-                            <th scope="col">リンク</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+            <div class="m-2">
+                <h4>Webサイト</h4>
+                <p>下記リンクから実際に遊べます！</p>
+                <div id="link-table" class="m-2">
+                    <table class="table table-bordered table-striped mt-4">
+                        <thead>
+                            <tr>
+                                <th scope="col">作品</th>
+                                <th scope="col">リンク</th>
+                            </tr>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td class="align-middle">
                                 <b>Study Review</b>
@@ -163,9 +162,9 @@
                                 <a href="https://letters.cogon-k.com">https://letters.cogon-k.com</a>
                             </td>
                         </tr>
-                    </tbody>
-
-                </table>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </section>
@@ -176,14 +175,14 @@
     <!-- 一つのページにたくさんの画像を乗せると読み込み速度が低下します。適宜画像の解像度を下げてください。-->
         <div id="cg-works" class="container-fluid">
             <h3 class="p-1">CG部作品</h3>
-            <div class="row m-md-3" >
+            <div class="row m-md-3 m-2">
                 <cg-card v-for="(item,index) in items.ritaisai2022" v-bind:item="item" v-bind:name="'other2020'" v-bind:index="index" v-bind:isob="isOB(item.author)"  v-bind:cardtype="getCardType(item.card_type)" ></cg-card>
             </div>
         </div>
     </section>
     
       <section class="wrapper-wide">
-        <div id="dtm-works" class="container-fluid">
+        <div id="dtm-introduction" class="container-fluid">
             <h3 class="p-1">DTM部作品</h3>
             <table class="table table-sm table-borderless table-striped">
                 <thead>
@@ -207,37 +206,16 @@
         </div>
     </section>
     <section class="wrapper-wide">
-       
         <div id="mv-works" class="container-fluid">
             <div id="link-introduction">
                 <h3 class="p-1">MV部作品</h3>
             </div>
             <!-- 紹介動画-->
-            <div class="container">
-                <div class="row justify-content-around">
-                    <template v-for="item in items.ritaisai2022">
-                        <div class="card col-11 col-lg-5">
-                            <div class="card-body">
-                                <h4 class="title">「{{item.title}}」</h4>
-                                <p class="description" v-if="item.description">{{item.description}}</p>
-                                <div class="authors row">
-                                    <p>作者：　　</p>
-                                    <div>
-                                        <p v-for="author in item.authors">{{author}}</p>
-                                    </div>
-                                </div>
-                                <div class="subauthors row" v-if="item.subauthors">
-                                    <p>協力者：　</p>
-                                    <div>
-                                        <p v-for="subauthor in item.subauthors">{{subauthor}}</p>
-                                    </div>
-                                </div>
-                                <div class="embed embed-responsive embed-responsive-16by9" v-html="item.embed"></div>
-                            </div>
-                        </div>
-                    </template>
-                </div>
+
+            <div class="row justify-content-around my-4 m-2">
+                <mv-work v-for="(item, index) in items.ritaisai2022" :item="item" :index="index"></mv-work>
             </div>
+
         </div>
     </section>
 
@@ -249,6 +227,14 @@
     <script type="text/javascript"  src="src/prog-works.js"></script>
     <script type="text/javascript"  src="src/cg-works.js"></script> 
     <script type="text/javascript" src="src/dtm-works.js"></script>
-
+    <script type="text/javascript" src="src/mv-works.js"></script>
 </body>
+<style>
+    .table tbody tr td a {
+        word-wrap: anywhere;
+    }
+    #headline {
+        margin-top: 50px !important;
+    }
+</style>
 </html>

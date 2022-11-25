@@ -119,7 +119,6 @@ var vm = new Vue({
         var self=this;
         axios.get("data/prog-works.json").then(response => {
             self.items = response.data;
-            console.log(Object.keys(self.items))
         }).catch(error => {
             console.log(error);
         });

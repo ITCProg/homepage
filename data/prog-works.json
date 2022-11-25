@@ -47,7 +47,7 @@
         "unity":{
             "name":"Unity",
             "color":1
-        },
+        }
     },
     "item-template":{
         "invisible":"trueだと表示されなくなります",
