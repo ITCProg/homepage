@@ -67,32 +67,11 @@
     </section>
 
     <section class="wrapper-wide">
-        <div id="movie-works">
-            <h3 class="p-1">2021年度</h3>
-            <div class="container">
-                <div class="row justify-content-around">
-                    <template v-for="item in items.items2021">
-                        <div class="card col-11 col-lg-5">
-                            <div class="card-body">
-                                <h4 class="title">「{{item.title}}」</h4>
-                                <p class="description" v-if="item.description">{{item.description}}</p>
-                                <div class="authors row">
-                                    <p>作者：　　</p>
-                                    <div>
-                                        <p v-for="author in item.authors">{{author}}</p>
-                                    </div>
-                                </div>
-                                <div class="subauthors row" v-if="item.subauthors">
-                                    <p>協力者：　</p>
-                                    <div>
-                                        <p v-for="subauthor in item.subauthors">{{subauthor}}</p>
-                                    </div>
-                                </div>
-                                <div class="embed embed-responsive embed-responsive-16by9" v-html="item.embed"></div>
-                            </div>
-                        </div>
-                    </template>
-                </div>
+        <div id="mv-works">
+            <h3 class="m-1">2021年度</h3>
+            <div class="row justify-content-around">
+                <mv-work class="my-4" v-for="(item, index) in items.items2021" :item="item" :index="index">
+                </mv-work>
             </div>
         </div>
     </section>
