@@ -15,17 +15,114 @@
         ],
         "card_type (作品を表示させる種類（0なら１マス、1なら2マスぶん使って表示)":0
     },
-
-
-
-
     "ob_list":[
         "あきらめない男",
         "なりゆる",
         "ころりん"
     ],
     "ritaisai2022": [
-
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/hasu_heta.jpg",
+            "author": "下手",
+            "card_type": 0
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/IMG_1514_Bacon_comp.jpg",
+            "author": "Bacon",
+            "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/ridaisai22_syll.png",
+            "author": "syll",
+            "card_type": 0
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/IMG_4302_Cay.jpg",
+            "author": "Cay",
+            "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/mudai_RM.jpg",
+            "author": "RM",
+            "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/ridaisai2022_yagu.jpg",
+            "author": "yagu",
+            "card_type": 0
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/vivid_light_trimmed_NEMUKE63.jpg",
+            "author": "NEMUKE63",
+            "card_type": 0
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/signature_Rutamn.jpg",
+            "author": "Rutamn",
+            "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/sushi_batu.jpg",
+            "author": "batu",
+            "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/utyuu_NigoRY.jpg",
+            "author": "NigoRY",
+            "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/2022_tomoki_comp.png",
+            "author": "Tomoki",
+            "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/grass_jo_comp.jpg",
+            "author": "じょう",
+            "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/hi-tech_XEAM_comp.jpg",
+            "author": "XEAM",
+            "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/saikoro_HYT_yama_comp.jpg",
+            "author": "HYT/yama",
+            "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/straw_jo_comp.jpg",
+            "author": "じょう",
+            "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/teckloud_XEAM_comp.jpg",
+            "author": "XEAM",
+            "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/untitled_namonaki_comp.png",
+            "author": "ナモナキ",
+            "card_type": 1
+        }
     ],
     "ritaisai2021": [
         {

@@ -78,8 +78,7 @@
             "languages":[
         
             ]
-        }
-        ,
+        },
         {
             "imgurl":"images/prog/works/ritaisai/2.png",
             "title":"Circle2",
@@ -91,8 +90,7 @@
                 "cs",
                 "unity"
             ]
-        }
-        ,
+        },
         {
             "imgurl":"images/prog/works/ritaisai/figp.png",
             "title":"Panel Reverse",
@@ -148,6 +146,17 @@
             "author": "anman",
             "captions": [
                 "簡単なOSを作りました．"
+            ],
+            "languages": [
+
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2022/xeam.jpg",
+            "title": "game1 and game2",
+            "author": "xeam",
+            "captions": [
+                "パネル式の良ゲーとクソゲー"
             ],
             "languages": [
 

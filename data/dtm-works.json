@@ -6,7 +6,16 @@
         "上のようなコードをコピーしてからsrc=~のURL部分だけをjsonのsrcに貼り付けて下さい。"
     ],
     "ritaisai2022": [
-
+        {
+            "time": "2022秋",
+            "title": "ITC vol.17",
+            "embed": "<iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=1400453379/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/' seamless><a href='https://itcmusic1.bandcamp.com/album/itc-vol-17'>ITC Vol.17 by Various Artists</a></iframe>"
+        },
+        {
+            "time": "2022春",
+            "title": "ITC vol.16",
+            "embed": "<iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=680889391/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/' seamless><a href='https://itcmusic1.bandcamp.com/album/itc-vol-16'>ITC Vol.16 by Various Artists</a></iframe>"
+        }
     ],
     "ritaisai2021":[
         {
