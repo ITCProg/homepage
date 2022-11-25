@@ -19,7 +19,75 @@
         ]
     },
 	"ritaisai2022": [
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/BRdlZcGV6B8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"title": "親方，空から星が！",
+			"authors": [
+				"つかっちゃん"
+			],
+			"subauthors": [
 
+			]
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/qCgW1o3j4vg' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"title": "傘街",
+			"authors": [
+				"NEMUKE63"
+			],
+			"subauthors": [
+				"XEAM"
+			]
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/-h1dIhDkb0M' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"title": "The Last One",
+			"authors": [
+				"XEAM"
+			],
+			"subauthors": [
+
+			]
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/muQmF2gNZg0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"title": "じこしょうかい",
+			"authors": [
+				"haruki/おるざと"
+			],
+			"subauthors": [
+
+			]
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/EQv0isHI4pM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"title": "[410]:The Long Odyssey",
+			"authors": [
+				"yuhgao"
+			],
+			"subauthors": [
+			]
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/Nt6hLP1fZM0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"title": "自動車のアニメーション",
+			"authors": [
+				"Tomoki"
+			],
+			"subauthors": [
+
+			]
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/xHYFzPGO3uI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+			"title": "陽は落ち, 夜へ向かう",
+			"authors": [
+				"Tomoki"
+			],
+			"subauthors": [
+
+			]
+		}
 	],
     "items2021":[
     	{
