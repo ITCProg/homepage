@@ -161,6 +161,63 @@
             "languages": [
 
             ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2022/Chino.png",
+            "title": "Study Review、変換Bot、Splate",
+            "author": "Chino",
+            "captions": [
+                "Study Review: 教育コンテンツの評価・検索サイトです。",
+                "数式・化学式変換Bot: リプライに含まれる数式や化学式を画像に変換するTwitter Botです。",
+                "Splate: スプラトゥーン風のネームプレートメーカーです。"
+            ],
+            "languages": [
+
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2022/kage.png",
+            "title": "MINESWEEPER++",
+            "author": "kage",
+            "captions": [
+                "普通のマインスイーパーよりも運が必要なゲームです。"
+            ],
+            "languages": [
+
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2022/lettuce.png",
+            "title": "AI画像分類機",
+            "author": "lettuce",
+            "captions": [
+                "AIで画像分析するサイトです。"
+            ],
+            "languages": [
+
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2022/NEMUKE.png",
+            "title": "年賀状作成Webアップ",
+            "author": "NEMUKE63",
+            "captions": [
+                "宛名を登録すると自動的にはがきの宛名欄を作ってくれるWebアップです。"
+            ],
+            "languages": [
+
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2022/yama.png",
+            "title": "ポートフォリオサイト",
+            "author": "HYT/yama",
+            "captions": [
+                "制作した作品をまとめたポートフォリオサイトです。"
+            ],
+            "languages": [
+
+            ]
         }
     ],
 

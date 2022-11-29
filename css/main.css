@@ -14,6 +14,7 @@
 /*========================ジャンボトロン=====================================*/
 
 #main-ritaisai-jumbo,
+#main-ritaisai-2022-jumbo,
 #main-cg-jumbo,
 #main-dtm-jumbo,
 #main-prog-jumbo,
@@ -25,6 +26,9 @@
 }
 #main-ritaisai-jumbo {
     background-image: url("../images/link-header.png");
+}
+#main-ritaisai-2022-jumbo {
+    background-image: url("../images/thumbnail-ritaisai2022.jpg");
 }
 #main-cg-jumbo {
     background-image: url("../images/CG-card2.png");
@@ -40,6 +44,7 @@
 }
 
 #main-ritaisai-jumbo p,
+#main-ritaisai-2022-jumbo p,
 #main-cg-jumbo p,
 #main-dtm-jumbo p,
 #main-prog-jumbo p,
