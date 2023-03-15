@@ -18,7 +18,20 @@
     "ob_list":[
         "あきらめない男",
         "なりゆる",
-        "ころりん"
+        "ころりん",
+        "Bacon",
+        "XEAM",
+        "K",
+        "ゆらむ",
+        "レミ",
+        "K4N0N",
+        "Nost",
+        "せりぜ",
+        "青木そら",
+        "響一",
+        "ChRoia",
+        "watabu",
+        "Euk"
     ],
     "ritaisai2022": [
         {
@@ -54,7 +67,7 @@
         {
             "year": 2022,
             "imgurl": "images/cg/works/ritaisai2022/ridaisai2022_yagu.jpg",
-            "author": "yagu",
+            "author": "ヤグ",
             "card_type": 0
         },
         {
@@ -122,6 +135,12 @@
             "imgurl": "images/cg/works/ritaisai2022/untitled_namonaki_comp.png",
             "author": "ナモナキ",
             "card_type": 1
+        },
+        {
+            "year": 2022,
+            "imgurl": "images/cg/works/ritaisai2022/nemuke_night.png",
+            "author": "NEMUKE63",
+            "card_type": 1
         }
     ],
     "ritaisai2021": [
@@ -134,7 +153,7 @@
         {
             "year":2021,
             "imgurl":"images/cg/works/ritaisai/UNDERTALE_heta.jpg",
-            "author":"heta",
+            "author":"下手",
             "card_type":0
         },
         {
@@ -169,7 +188,7 @@
             "title":"夏の風物詩",
             "year":2021,
             "imgurl":"images/cg/works/ritaisai/夏の風物詩_やぐ.png",
-            "author": "やぐ",
+            "author": "ヤグ",
             "card_type":0
         }
         ,{
@@ -206,7 +225,7 @@
             "title":"Dear my Friend",
             "year":2021,
             "imgurl":"images/cg/works/ritaisai/Dear my friend_bacon.jpg",
-            "author": "bacon",
+            "author": "Bacon",
             "card_type":0
         }
         ,{
@@ -219,7 +238,7 @@
             "title":"Amethyst sphere",
             "year":2021,
             "imgurl":"images/cg/works/ritaisai/xeam.png",
-            "author": "xeam",
+            "author": "XEAM",
             "card_type":1
         }
         ,{
@@ -408,7 +427,7 @@
         {
             "year":2020,
             "imgurl":"images/cg/works/2020/bacon1.jpg",
-            "author":"bacon",
+            "author":"Bacon",
             "card_type":0
         },
         {
@@ -428,6 +447,92 @@
             "year":2020,
             "imgurl":"images/cg/works/2020/watabu.png",
             "author":"watabu",
+            "card_type":0
+        }
+    ],
+    "other_items2022": [
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/serize2022-1.png",
+            "author":"せりぜ",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/nigory2022.png",
+            "author":"NigoRY",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/Bacon2022-1.PNG",
+            "author":"Bacon",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/jou2022.png",
+            "author":"じょう",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/nemuke2022.png",
+            "author":"NEMUKE63",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/yuramu2022-1.png",
+            "author":"ゆらむ",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/rutumn2022.png",
+            "author":"Rutamn",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/cay2022-1.png",
+            "author":"Cay",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/toriniku2022.png",
+            "author":"とりにく",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/bacon2022-2.png",
+            "author":"Bacon",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/hakutya2022.png",
+            "author":"白茶",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/yuramu2022-2.png",
+            "author":"ゆらむ",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/serize2022-3.png",
+            "author":"せりぜ",
+            "card_type":0
+        },
+        {
+            "year":2022,
+            "imgurl":"images/cg/works/2022/cay2022-2.png",
+            "author":"Cay",
             "card_type":0
         }
     ]
