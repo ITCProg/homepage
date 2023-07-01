@@ -535,5 +535,43 @@
             "author":"Cay",
             "card_type":0
         }
+    ],
+    "other_items2023": [
+        {
+            "year":2023,
+            "imgurl":"images/cg/works/2023/mamikazu2023.jpg",
+            "author":"マミカズ",
+            "card_type":0
+        },
+        {
+            "year":2023,
+            "imgurl":"images/cg/works/2023/schroer2023.jpg",
+            "author":"シュレー",
+            "card_type":0
+        },
+        {
+            "year":2023,
+            "imgurl":"images/cg/works/2023/shohei2023.jpg",
+            "author":"しょうへい",
+            "card_type":0
+        },
+        {
+            "year":2023,
+            "imgurl":"images/cg/works/2023/bluemusk2023.jpg",
+            "author":"Blue Musk",
+            "card_type":0
+        },
+        {
+            "year":2023,
+            "imgurl":"images/cg/works/2023/kou2023.jpg",
+            "author":"コウ",
+            "card_type":0
+        },
+        {
+            "year":2023,
+            "imgurl":"images/cg/works/2023/nemuke2023.jpg",
+            "author":"NEMUKE63",
+            "card_type":0
+        }
     ]
 }

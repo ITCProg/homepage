@@ -92,6 +92,10 @@
             </div>
 
             <h3 class="p-1">その他コミックマーケット等で出した作品</h3>
+            <h4>2023年度</h4>
+            <div class="row m-md-3" >
+                <cg-card v-for="(item,index) in items.other_items2023" v-bind:item="item" v-bind:name="'other2023'" v-bind:index="index" v-bind:isob="isOB(item.author)"  v-bind:cardtype="getCardType(item.card_type)" ></cg-modal>
+            </div>
             <h4>2022年度</h4>
             <div class="row m-md-3" >
                 <cg-card v-for="(item,index) in items.other_items2022" v-bind:item="item" v-bind:name="'other2022'" v-bind:index="index" v-bind:isob="isOB(item.author)"  v-bind:cardtype="getCardType(item.card_type)" ></cg-modal>
