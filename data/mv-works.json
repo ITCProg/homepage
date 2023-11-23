@@ -18,6 +18,64 @@
         	"指定しなくてもいいです"
         ]
     },
+	"ritaisai2023": [
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/J2-7B1Y3pUE?si=lnxAVPtPLQDOXKqe' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+			"title": "Nyanyanyanyanyanyanya!をVOICEVOX冥鳴ひまりに歌ってもらった",
+			"authors":[
+				"アズマ・ルーク"
+			],
+			"subauthors":[
+
+			]
+
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/2SfMeO1IslA?si=mT4lX7neuF4EEQ-U' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+			"title": "美ヶ原高原-2023初夏",
+			"authors":[
+				"tomoki"
+			],
+			"subauthors":[
+
+			]
+
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/9vaNEq1MY1s?si=vlUo36hY_Z7fV5Cy' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+			"title": "かくり夜のうた Vo.鳴花ミコト",
+			"authors":[
+				"ゆうがお"
+			],
+			"subauthors":[
+				"イラスト：せりぜ"
+			]
+
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/_yOPG4sG964?si=4Yk_fiavXq0WEOSp' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+			"title": "「エルゴノーツ」XFD",
+			"authors":[
+				"ゆうがお"
+			],
+			"subauthors":[
+				"hexatropica."
+			]
+
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/gmAIFc5Ahb0?si=I9MTk2uFRZuUTr2U' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+			"title": "理大祭２０２３葛飾地区テーマ告知PV",
+			"authors":[
+				"ゆうがお"
+			],
+			"subauthors":[
+
+			]
+
+		}
+		
+	],
 	"ritaisai2022": [
 		{
 			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/BRdlZcGV6B8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",

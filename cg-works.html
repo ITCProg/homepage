@@ -81,7 +81,10 @@
             <div class="row m-md-3">
                 <cg-card v-for="(item,index) in items.m3_items" v-bind:item="item" v-bind:name="'M3'" v-bind:index="index" v-bind:isob="isOB(item.author)"  v-bind:cardtype="getCardType(item.card_type)" ></cg-modal>
             </div>
-
+            <h3 class="p-1">理大祭2023</h3>
+            <div class="row m-md-3">
+                <cg-card v-for="(item,index) in items.ritaisai2023" v-bind:item="item" v-bind:name="'ritaisai2023'" v-bind:index="index" v-bind:isob="isOB(item.author)"  v-bind:cardtype="getCardType(item.card_type)" ></cg-modal>
+            </div>
             <h3 class="p-1">理大祭2022</h3>
             <div class="row m-md-3">
                 <cg-card v-for="(item,index) in items.ritaisai2022" v-bind:item="item" v-bind:name="'ritaisai2022'" v-bind:index="index" v-bind:isob="isOB(item.author)"  v-bind:cardtype="getCardType(item.card_type)" ></cg-modal>

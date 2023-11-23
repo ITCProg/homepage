@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- 共通部分を自動でhtmlに追加するjavascript。jQuery読み込んでからでないとエラー -->
+    <script src="src/header.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49660611-1');
+        console.log("google analysys");
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <!-- OGPの設定-->
+    <meta name="og:title" content="情報技術クラブ ITC 2023年度理大祭">
+    <meta property="og:url" content="https://tusitclub.net/ritaisai2022.html">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="2023年度の理大祭作品の詳しい紹介をします。" />
+    <meta property="og:site_name" content="情報技術クラブ" />
+    <meta property="og:image" content="https://tusitclub.net/images/thumbnail-ritaisai2022.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@tusitclub" />
+    <meta name="twitter:creator" content="@tusitclub">
+    <meta name="twitter:image" content="https://tusitclub.net/images/thumbnail-ritaisai2022.jpg" />
+
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- BootstrapのJS読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/prog-works.css">
+    <link rel="stylesheet" href="css/cg-works.css">
+    <link rel="stylesheet" href="css/dtm-works.css">
+    <!-- vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- font awesome-->
+    <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&display=swap" rel="stylesheet">
+    <title>理大祭2023 - 情報技術クラブ ITC</title>
+
+</head>
+<body>
+    <div id="top"></div>
+    <script type="text/javascript">gotoTop('');</script>
+    <script type="text/javascript">header('');</script>
+    <!-- メインコンテンツ-->
+    <img src="images/ritaisai2023.png" class="col-12 p-0 m-0" id="headline">
+
+    <section class="wrapper-wide">
+        <div class=" my-5">
+            <h2 class="px-3">2023年度理大祭　　作品集</h2>
+            <div class="m-4">
+                <p>理大祭に出展された、ゲーム・Webサイト・イラスト・楽曲・動画等の作品紹介です。</p>
+                <p>作品の画像をクリックすると拡大表示ができます。</p>
+                <p>作品の右下に
+                    <i class="fas fa-newspaper"></i>
+                    が表示されている場合、クリックすると詳しい説明を見ることができます。
+                </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="wrapper-wide">
+        <div id="prog-works" class="container-fluid">
+            <h3 class="p-1">Prog部作品</h3>
+            <div class="row m-3">
+                <prog-work
+                        v-for="(item,index) in items.ritaisai2023"
+                        v-bind:item='item'
+                        v-bind:index="index"
+                        v-bind:name="'p2020'"
+                        v-bind:isob='isOB'
+                        v-bind:getname='getName'
+                        v-bind:getcolor='getColor'>
+                </prog-work>
+            </div>
+
+            <!-- <div class="m-2">
+                <h4>Webサイト</h4>
+                <p>下記リンクから実際に遊べます！</p>
+                <div id="link-table" class="m-2">
+                    <table class="table table-bordered table-striped mt-4">
+                        <thead>
+                            <tr>
+                                <th scope="col">作品</th>
+                                <th scope="col">作者</th>
+                                <th scope="col">リンク</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="align-middle">
+                                <b>The guardian</b>
+                            </td>
+                            <td class="align-middle">
+                                <b>kariumi</b>
+                            </td>
+                            <td><a href="https://game.kariumi.com/TheGuardian/">https://game.kariumi.com/TheGuardian/</a></td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <b>Be Colorful</b>
+                            </td>
+                            <td class="align-middle">
+                                <b>stone</b>
+                            </td>
+                            <td><a href="https://unityroom.com/games/be_colorful">https://unityroom.com/games/be_colorful</a></td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <b>Study Review</b>
+                            </td>
+                            <td class="align-middle">
+                                <b>Chino</b>
+                            </td>
+                            <td><a href="https://studyreview.cogon-k.com">https://studyreview.cogon-k.com</a></td>
+
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <b>数式・化学式変換Bot</b>
+                            </td>
+                            <td class="align-middle">
+                                <b>Chino</b>
+                            </td>
+                            <td>
+                                <a href="https://twitter.com/FormulaConvert">https://twitter.com/FormulaConvert</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <b>Splate</b>
+                            </td>
+                            <td class="align-middle">
+                                <b>Chino</b>
+                            </td>
+                            <td>
+                                <a href="https://splate.cogon-k.com">https://splate.cogon-k.com</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <b>ポートフォリオサイト</b>
+                            </td>
+                            <td class="align-middle">
+                                <b>HYT/yama</b>
+                            </td>
+                            <td>
+                                <a href="https://hyt42902.github.io/Portfolio/">https://hyt42902.github.io/Portfolio/</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <b>MineSweeper++</b>
+                            </td>
+                            <td class="align-middle">
+                                <b>kage</b>
+                            </td>
+                            <td>
+                                <a href="https://minesweeper-plus-plus.vercel.app/">https://minesweeper-plus-plus.vercel.app/</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <b>AI画像分類機</b>
+                            </td>
+                            <td class="align-middle">
+                                <b>lettuce</b>
+                            </td>
+                            <td>
+                                <a href="https://testaiweb-client.herokuapp.com">https://testaiweb-client.herokuapp.com</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <b>年賀状作成Webアップ</b>
+                            </td>
+                            <td class="align-middle">
+                                <b>NEMUKE63</b>
+                            </td>
+                            <td>
+                                <a href="https://letters.cogon-k.com">https://letters.cogon-k.com/file</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="wrapper-wide">
+    <!-- 作品を乗せる場所 -->
+    <!-- 1列に4個のレイアウトになっている。(ウィンドウが小さければ1列に2個) rowクラスで一つの列。意図的に列を分けたいならrowクラスを新しく作る-->
+    <!-- 一つのページにたくさんの画像を乗せると読み込み速度が低下します。適宜画像の解像度を下げてください。-->
+        <div id="cg-works" class="container-fluid">
+            <h3 class="p-1">CG部作品</h3>
+            <div class="row m-md-3 m-2">
+                <cg-card v-for="(item,index) in items.ritaisai2023" v-bind:item="item" v-bind:name="'other2020'" v-bind:index="index" v-bind:isob="isOB(item.author)"  v-bind:cardtype="getCardType(item.card_type)" ></cg-card>
+            </div>
+        </div>
+    </section>
+    
+      <section class="wrapper-wide">
+        <div id="dtm-introduction" class="container-fluid">
+            <h3 class="p-1">DTM部作品</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">アルバム名</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template v-for="item in items.ritaisai2023">
+                        <tr>
+                            <td class="align-middle">
+                                <h4>{{item.title}}</h4>
+                            </td>
+                            <td><div v-html="item.embed"></div></td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+
+        </div>
+    </section>
+    <section class="wrapper-wide">
+        <div id="mv-works" class="container-fluid">
+            <div id="link-introduction">
+                <h3 class="p-1">MV部作品</h3>
+            </div>
+            <!-- 紹介動画-->
+
+            <div class="row justify-content-around my-4 m-2">
+                <mv-work v-for="(item, index) in items.ritaisai2023" :item="item" :index="index"></mv-work>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <script type="text/javascript">footer('');</script>
+    <!--作品データから紹介カードを生成-->
+    <script type="text/javascript"  src="src/prog-works.js"></script>
+    <script type="text/javascript"  src="src/cg-works.js"></script> 
+    <script type="text/javascript" src="src/dtm-works.js"></script>
+    <script type="text/javascript" src="src/mv-works.js"></script>
+</body>
+<style>
+    .table tbody tr td a {
+        word-wrap: anywhere;
+    }
+    #headline {
+        margin-top: 50px !important;
+    }
+</style>
+</html>

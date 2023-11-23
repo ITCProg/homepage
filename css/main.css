@@ -15,6 +15,7 @@
 
 #main-ritaisai-jumbo,
 #main-ritaisai-2022-jumbo,
+#main-ritaisai-2023-jumbo,
 #main-cg-jumbo,
 #main-dtm-jumbo,
 #main-prog-jumbo,
@@ -29,6 +30,9 @@
 }
 #main-ritaisai-2022-jumbo {
     background-image: url("../images/thumbnail-ritaisai2022.jpg");
+}
+#main-ritaisai-2023-jumbo {
+    background-image: url("../images/thumbnail-ritaisai2023.jpg");
 }
 #main-cg-jumbo {
     background-image: url("../images/CG-card2.png");

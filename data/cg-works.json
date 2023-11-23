@@ -33,6 +33,152 @@
         "watabu",
         "Euk"
     ],
+    "ritaisai2023": [
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/2DCG/batu_理大祭_2023.png",
+            "author": "batu",
+            "card_type": 1
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/2DCG/kino_理大祭_1_2023.png",
+            "author": "kino",
+            "card_type": 1
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/2DCG/kino_理大祭_2_2023.png",
+            "author": "kino",
+            "card_type": 0
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/2DCG/milk tea _理大祭_2023.png",
+            "author": "milk tea",
+            "card_type": 0
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/2DCG/RM_理大祭_1_2023.png",
+            "author": "RM",
+            "card_type": 0
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/2DCG/RM_理大祭_2_2023.png",
+            "author": "RM",
+            "card_type": 0
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/2DCG/Sake!_理大祭_2023.png",
+            "author": "Sake!",
+            "card_type": 0
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/2DCG/Schroer_理大祭_2023.png",
+            "author": "Schroer",
+            "card_type": 0
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/2DCG/syll_理大祭_2023.png",
+            "author": "syll",
+            "card_type": 1
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/2DCG/こ._理大祭_2023.png",
+            "author": "こ.",
+            "card_type": 0
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/2DCG/にごりい_理大祭_シールの説明だけど便宜上印刷展示用に置いとくやつ.jpg",
+            "author": "にごりい",
+            "card_type": 0
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/2DCG/へた_理大祭_2023.png",
+            "author": "へた",
+            "card_type": 0
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/3DCG/bin_fin2_color_ajsted_4.png",
+            "author": "NEMUKE63",
+            "card_type": 0
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/3DCG/blossom_without_person.png",
+            "author": "NEMUKE63",
+            "card_type": 1
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/3DCG/fiyold.png",
+            "author": "ナモナキ",
+            "card_type": 1
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/3DCG/glass.png",
+            "author": "ナモナキ",
+            "card_type": 1
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/3DCG/paper_lantern_ver2_ajusted.png",
+            "author": "NEMUKE63",
+            "card_type": 1
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/3DCG/night_lightup_maybe_fin_4k_pastel_ps.png",
+            "author": "NEMUKE63",
+            "card_type": 1
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/3DCG/revised_nonfog_4k_ps_pastel.png",
+            "author": "NEMUKE63",
+            "card_type": 1
+        },     
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/3DCG/tree1.png",
+            "author": "ナモナキ",
+            "card_type": 1
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/3DCG/アートボード 1.png",
+            "author": "NEMUKE63",
+            "card_type": 1
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/3DCG/ひろりん_理大祭_2023.png",
+            "author": "ひろりん",
+            "card_type": 1
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/3DCG/ひろりん_理大祭2_2023.png",
+            "author": "ひろりん",
+            "card_type": 1
+        },
+        {
+            "year": 2023,
+            "imgurl": "images/cg/works/ritaisai2023/3DCG/orange.png",
+            "author": "NEMUKE63",
+            "card_type": 0
+        }
+    ],
     "ritaisai2022": [
         {
             "year": 2022,
