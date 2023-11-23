@@ -65,7 +65,20 @@
             "上のbadgesから選ぶ"
         ]
     },
-    
+    "ritaisai2023":[
+        {
+            "imgurl": "images/prog/works/ritaisai2022/kariumi.png",
+            "title": "The guardian",
+            "author": "kariumi",
+            "captions": [
+                "りんごを回収しながらボスを撃破するアクションゲームです．"
+            ],
+            "languages": [
+                "unity",
+                "cs"
+            ]
+        }
+    ],
     "ritaisai2021":[
         {
             "imgurl":"images/prog/works/ritaisai/recipe1.png",
