@@ -5,6 +5,7 @@
         "<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/701998210&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe>",
         "上のようなコードをコピーしてからsrc=~のURL部分だけをjsonのsrcに貼り付けて下さい。"
     ],
+    
     "ritaisai2023": [
         {
             "time": "2023春",
@@ -52,6 +53,11 @@
         }
     ],
     "m3_xfd":[
+        {
+            "time": "2023春",
+            "title": "ITC vol.18",
+            "embed": "<iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=4138472703/size=large/bgcol=181a1b/linkcol=056cc4/tracklist=false/artwork=small/transparent=true/' seamless><a href='https://itcmusic1.bandcamp.com/album/itc-vol-18'>ITC Vol.18 Various Artists</a></iframe>"
+        },
         {
             "time":"2022秋",
             "title":"ITC vol.17",
@@ -147,5 +153,33 @@
             "title":"ITC vol.1",
             "embed":"<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/145749001&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/itc-tus' title='ITC TUS' target='_blank' style='color: #cccccc; text-decoration: none;'>ITC TUS</a> · <a href='https://soundcloud.com/itc-tus/m3-2019-itc-vol12-xfd' title='[M3-2020秋 茶-015] ITC Vol.13 (XFD)' target='_blank' style='color: #cccccc; text-decoration: none;'>[M3-2020秋 茶-015] ITC Vol.13 (XFD)</a></div>"
         }
-    ]
+    ],
+        "others":[
+            {
+                "time": "2023春",
+                "title": "Mass Psychology",
+                "embed": "<iframe width='100%' height='166' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1630461543&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe><div style='font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;'><a href='https://soundcloud.com/ikarun' title='ikarun' target='_blank' style='color: #cccccc; text-decoration: none;'>ikarun</a> · <a href='https://soundcloud.com/ikarun/masspsychology' title='Mass Psychology' target='_blank' style='color: #cccccc; text-decoration: none;'>Mass Psychology</a></div>"
+            },
+            {
+                "time": "2023春",
+                "title": "Aergonauts / エルゴノーツ",
+                "embed": "<iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=437112075/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/' seamless><a href='https://yuhgao.bandcamp.com/album/aergonauts'>Aergonauts Yuhgao / ゆうがお</a></iframe>"
+            },
+            {
+                "time": "2023春",
+                "title": "July3",
+                "embed": "<iframe style='border: 0; width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/track=3747962008/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/' seamless><a href='https://itcmusic1.bandcamp.com/track/july3'>July3 by Taal</a></iframe>"
+            },
+            {
+                "time":"2021",
+                "title":"Made with late nights♥",
+                "embed":"<iframe style='border: 0; width: 100%; height: 120px;' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1126705126&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe>"
+            },
+            {
+                "time":"2021",
+                "title":"宇宙",
+                "embed":"<iframe style='border: 0; width: 100%; height: 120px;' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1127319778&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true'></iframe>"
+            }
+
+        ]
 }
