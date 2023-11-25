@@ -68,11 +68,35 @@
 
     <section class="wrapper-wide">
         <div id="mv-works">
+            <h3 class="m-1">2023年度</h3>
+            <div class="row justify-content-around">
+                <mv-work class="my-4" v-for="(item, index) in items.ritaisai2023" :item="item" :index="index">
+                </mv-work>
+            </div>
+
+            <h3 class="m-1">2022年度</h3>
+            <div class="row justify-content-around">
+                <mv-work class="my-4" v-for="(item, index) in items.ritaisai2022" :item="item" :index="index">
+                </mv-work>
+            </div>
+
             <h3 class="m-1">2021年度</h3>
             <div class="row justify-content-around">
                 <mv-work class="my-4" v-for="(item, index) in items.items2021" :item="item" :index="index">
                 </mv-work>
             </div>
+
+            
+
+            
+
+            <!--　##追加したいときは、以下のテンプレートを使用してください 
+                <h3 class="m-1">〇〇年度</h3>
+            <div class="row justify-content-around">
+                <mv-work class="my-4" v-for="(item, index) in items.〇〇" :item="item" :index="index">
+                </mv-work>
+            </div> 
+            -->
         </div>
     </section>
     <script type="text/javascript">footer('');</script>

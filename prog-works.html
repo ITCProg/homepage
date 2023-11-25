@@ -87,6 +87,28 @@
     <section class="wrapper-wide">
        
         <div id="prog-works" class="container-fluid">
+            <!-- ここに追加 -->
+            <!-- 以下テンプレ
+            <h3 class="p-1">2023年度</h3>
+            <div class="row m-sm-0 m-md-3">
+                <prog-work v-for="(item,index) in items.ritaisai2023" v-bind:item='item' v-bind:index="index" v-bind:name="'p2020'" v-bind:isob='isOB' v-bind:getname='getName' v-bind:getcolor='getColor'></prog-work>
+            </div>
+            -->
+
+            <h3 class="p-1">2023年度</h3>
+            <div class="row m-sm-0 m-md-3">
+                <prog-work v-for="(item,index) in items.ritaisai2023" v-bind:item='item' v-bind:index="index" v-bind:name="'p2020'" v-bind:isob='isOB' v-bind:getname='getName' v-bind:getcolor='getColor'></prog-work>
+            </div>
+
+            <h3 class="p-1">2022年度</h3>
+            <div class="row m-sm-0 m-md-3">
+                <prog-work v-for="(item,index) in items.ritaisai2022" v-bind:item='item' v-bind:index="index" v-bind:name="'p2020'" v-bind:isob='isOB' v-bind:getname='getName' v-bind:getcolor='getColor'></prog-work>
+            </div>
+
+            <h3 class="p-1">2021年度</h3>
+            <div class="row m-sm-0 m-md-3">
+                <prog-work v-for="(item,index) in items.ritaisai2021" v-bind:item='item' v-bind:index="index" v-bind:name="'p2020'" v-bind:isob='isOB' v-bind:getname='getName' v-bind:getcolor='getColor'></prog-work>
+            </div>
 
             <h3 class="p-1">2020年度</h3>
             <div class="row m-sm-0 m-md-3">

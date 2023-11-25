@@ -95,7 +95,7 @@
                 </tbody>
             </table>
 
-            <h3 class="p-1">その他作品</h3>
+            <h3 class="p-1">その他作品①</h3>
             <p>コミックマーケットや合宿などで制作した曲です。</p>
             <table class="table table-sm table-borderless table-striped">
                 <thead>
@@ -130,6 +130,34 @@
                     -->
                 </tbody>
             </table>
+
+            <h3 class="p-1">その他作品②</h3>
+            <table class="table table-sm table-borderless table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">時期</th>
+                        <th scope="col">アルバム名</th>
+                        <th scope="col">クロスフェード</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template v-for="item in items.others">
+                        <tr>
+                            <td class="align-middle">
+                                <h4>{{item.time}}</h4>
+                            </td>
+                            <td class="align-middle">
+                                <h4>{{item.title}}</h4>
+                            </td>
+                            <td><div v-html="item.embed"></div></td>
+                            <!--
+                                 <td><iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"  v-bind:src="item.src"></iframe></td>
+                        -->
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+
         </div>
     </section>
     <script type="text/javascript">footer('');</script>
