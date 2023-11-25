@@ -67,11 +67,59 @@
     },
     "ritaisai2023":[
         {
-            "imgurl": "images/prog/works/ritaisai2022/kariumi.png",
-            "title": "The guardian",
+            "imgurl": "images/prog/works/ritaisai2023/kariumi.png",
+            "title": "イカゲーム",
             "author": "kariumi",
             "captions": [
-                "りんごを回収しながらボスを撃破するアクションゲームです．"
+                "コインを回収しながらイカを攻撃するゲームです。"
+            ],
+            "languages": [
+                "unity",
+                "cs"
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2023/riyo.png",
+            "title": "Crush Meteorites",
+            "author": "riyo",
+            "captions": [
+                "あなたは星々を隕石から守るパイロットです。飛来する隕石を撃墜し、星の危機を救いましょう！"
+            ],
+            "languages": [
+                "unity",
+                "cs"
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2023/yattsun.png",
+            "title": "ふえたてもりもり",
+            "author": "やっつん",
+            "captions": [
+                "たくさんのもりもりを動かしてゴールにたどり着こう！！"
+            ],
+            "languages": [
+                "unity",
+                "cs"
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2023/taal.png",
+            "title": "LimeSpot",
+            "author": "Taal",
+            "captions": [
+                "その洞窟は 終焉の場所だった。"
+            ],
+            "languages": [
+                "unity",
+                "cs"
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2023/adv.png",
+            "title": "Adventure Chick",
+            "author": "白メガネ(CG・DTMの合作)",
+            "captions": [
+                "アクションアドベンチャーです。"
             ],
             "languages": [
                 "unity",
