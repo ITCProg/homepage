@@ -20,26 +20,18 @@
     },
 	"ritaisai2023": [
 		{
-			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/J2-7B1Y3pUE?si=lnxAVPtPLQDOXKqe' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/WSKwyUEsYi0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
 			"title": "Nyanyanyanyanyanyanya!をVOICEVOX冥鳴ひまりに歌ってもらった",
 			"authors":[
 				"アズマ・ルーク"
-			],
-			"subauthors":[
-
 			]
-
 		},
 		{
 			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/2SfMeO1IslA?si=mT4lX7neuF4EEQ-U' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
 			"title": "美ヶ原高原-2023初夏",
 			"authors":[
 				"tomoki"
-			],
-			"subauthors":[
-
 			]
-
 		},
 		{
 			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/9vaNEq1MY1s?si=vlUo36hY_Z7fV5Cy' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
@@ -50,7 +42,6 @@
 			"subauthors":[
 				"イラスト：せりぜ"
 			]
-
 		},
 		{
 			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/_yOPG4sG964?si=4Yk_fiavXq0WEOSp' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
@@ -61,20 +52,14 @@
 			"subauthors":[
 				"hexatropica."
 			]
-
 		},
 		{
 			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/gmAIFc5Ahb0?si=I9MTk2uFRZuUTr2U' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
 			"title": "理大祭２０２３葛飾地区テーマ告知PV",
 			"authors":[
 				"ゆうがお"
-			],
-			"subauthors":[
-
 			]
-
 		}
-		
 	],
 	"ritaisai2022": [
 		{
@@ -82,9 +67,6 @@
 			"title": "親方，空から星が！",
 			"authors": [
 				"つかっちゃん"
-			],
-			"subauthors": [
-
 			]
 		},
 		{
@@ -102,9 +84,6 @@
 			"title": "The Last One",
 			"authors": [
 				"XEAM"
-			],
-			"subauthors": [
-
 			]
 		},
 		{
@@ -112,9 +91,6 @@
 			"title": "じこしょうかい",
 			"authors": [
 				"haruki/おるざと"
-			],
-			"subauthors": [
-
 			]
 		},
 		{
@@ -122,8 +98,6 @@
 			"title": "[410]:The Long Odyssey",
 			"authors": [
 				"yuhgao"
-			],
-			"subauthors": [
 			]
 		},
 		{
@@ -131,9 +105,6 @@
 			"title": "自動車のアニメーション",
 			"authors": [
 				"Tomoki"
-			],
-			"subauthors": [
-
 			]
 		},
 		{
@@ -141,9 +112,6 @@
 			"title": "陽は落ち, 夜へ向かう",
 			"authors": [
 				"Tomoki"
-			],
-			"subauthors": [
-
 			]
 		},
 		{
@@ -151,9 +119,6 @@
 			"title": "流し灯籠",
 			"authors": [
 				"Cay"
-			],
-			"subauthors": [
-				""
 			]
 		}
 	],
@@ -206,6 +171,5 @@
 	    		"照井"
 	    	]
     	}
-
     ]
 }
