@@ -47,6 +47,10 @@
         "unity":{
             "name":"Unity",
             "color":1
+        },
+        "python":{
+            "name":"Python",
+            "color":2
         }
     },
     "item-template":{
@@ -65,6 +69,26 @@
             "上のbadgesから選ぶ"
         ]
     },
+    "ritaisai2024": [
+        {
+            "imgurl": "images/prog/works/ritaisai2024/Taal_Budou-1.png",
+            "title": "ブドーファクトリー",
+            "author": "Taal",
+            "captions": [],
+            "languages": [
+                "unity"
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ritaisai2024/ImgConverterDesktop_guide-1.png",
+            "title": "ImgConverterDesktop",
+            "author": "Yuulis",
+            "captions": [],
+            "languages": [
+                "python"
+            ]
+        }
+    ],
     "ritaisai2023":[
         {
             "imgurl": "images/prog/works/ritaisai2023/kariumi.png",
