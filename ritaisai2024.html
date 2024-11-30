@@ -64,7 +64,9 @@
     <script type="text/javascript">gotoTop('');</script>
     <script type="text/javascript">header('');</script>
     <!-- メインコンテンツ-->
+    <!-- 後で追加するかも
     <img src="images/ritaisai2024.png" class="col-12 p-0 m-0" id="headline">
+-->
 
     <section class="wrapper-wide">
         <div class=" my-5">
@@ -114,13 +116,25 @@
         <div id="dtm-introduction" class="container-fluid">
             <h3 class="p-1">DTM部作品</h3>
             <table class="table table-sm table-borderless table-striped">
-                <thead>
-                    <tr>
-                        <th scope="col">アルバム名</th>
-                        <th scope="col"></th>
-                    </tr>
-                </thead>
                 <tbody>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-center" style="font-size: larger;">EXplosive OR?</p>
+                        </div>
+                        <div class="col">
+                            <img src="images/dtm/ritaisai2024/M32024_EXplosive_or_jacket-1.png" class="col-5 p-1 m-1">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-center" style="font-size: larger;">ITC vol.19</p>
+                        </div>
+                        <div class="col">
+                            <img src="images/dtm/ritaisai2024/ITC-19.png" class="col-5 p-1 m-1">
+                        </div>
+                    </div>
+                    <!--
                     <template v-for="item in items.ritaisai2024">
                         <tr>
                             <td class="align-middle">
@@ -129,6 +143,7 @@
                             <td><div v-html="item.embed"></div></td>
                         </tr>
                     </template>
+                    -->
                 </tbody>
             </table>
 
@@ -139,7 +154,7 @@
             <div id="link-introduction">
                 <h3 class="p-1">MV部作品</h3>
             </div>
-            <!-- 紹介動画-->
+            紹介動画
 
             <div class="row justify-content-around my-4 m-2">
                 <mv-work v-for="(item, index) in items.ritaisai2024" :item="item" :index="index"></mv-work>
@@ -147,6 +162,7 @@
 
         </div>
     </section>
+    <!-- 公開するかも
     <section class="wrapper-wide">
         <div class="container-fluid">
             <h3 class="p-1">過去の理大祭</h3>
@@ -167,6 +183,7 @@
             </div>
         </div>
     </section>
+    -->
 
 
 

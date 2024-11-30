@@ -112,6 +112,7 @@ var vm = new Vue({
             switch(this.items.badges[id].color){
                 case 0:return "badge badge-primary";
                 case 1:return "badge badge-danger";
+                case 2:return "badge badge-success";
             }
         }
     },

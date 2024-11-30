@@ -36,6 +36,39 @@
         "からびな",
         "lambda"
     ],
+    "ritaisai2024": [
+        {
+            "year": 2024,
+            "imgurl": "images/cg/works/ritaisai2024/2024_理大祭_milk_tea.png",
+            "author": "milk tea",
+            "card_type": 0
+        },
+        {
+            "year": 2024,
+            "imgurl": "images/cg/works/ritaisai2024/2024_理大祭_RAI_ブートヒル.png",
+            "author": "RAI",
+            "card_type": 0
+        },
+        {
+            "year": 2024,
+            "imgurl": "images/cg/works/ritaisai2024/2024_理大祭_RAI_ブートヒルイラコン.png",
+            "author": "RAI",
+            "card_type": 1
+        },
+        {
+            "year": 2024,
+            "imgurl": "images/cg/works/ritaisai2024/2024_理大祭_RAI_ブラックスワン.png",
+            "author": "RAI",
+            "card_type": 0
+        },
+        {
+            "year": 2024,
+            "imgurl": "images/cg/works/ritaisai2024/2024_理大祭_RAI_リオセスリ.png",
+            "author": "RAI",
+            "card_type": 0
+        }
+
+    ],
     "ritaisai2023": [
         {
             "year": 2023,
