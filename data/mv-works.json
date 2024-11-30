@@ -18,6 +18,29 @@
         	"指定しなくてもいいです"
         ]
     },
+	"ritaisai2024": [
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/yMeskqA0mOs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+			"title": "【高校三年生・大学一年生必見】大学の講義が分かりにくい理由【すんだもんが解説】",
+			"authors":[
+				"SSS"
+			]
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/1qqR9ZN5S8o' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+			"title": "【MV】メトロポリス/RINNE Feat. 氷山キヨテル",
+			"authors":[
+				"RINNE"
+			]
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/ac1j-nDgQJ0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+			"title": "sakuhin",
+			"authors":[
+				"りょー"
+			]
+		}
+	],
 	"ritaisai2023": [
 		{
 			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/WSKwyUEsYi0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
