@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
 
     <!-- jQuery読み込み -->
@@ -10,7 +11,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-49660611-1');
@@ -25,12 +26,15 @@
     <meta http-equiv="Cache-Control" content="no-cache">
 
     <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!-- jQuery読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- BootstrapのJS読み込み -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/base.css">
     <!-- vue.js-->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
@@ -38,11 +42,12 @@
     <!-- font awesome-->
     <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
     <link rel="icon" href="favicon.ico">
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&display=swap" rel="stylesheet">
     <title>Contact us - 情報技術クラブ ITC</title>
 </head>
+
 <body>
     <div id="top"></div>
     <script type="text/javascript">gotoTop('');</script>
@@ -58,12 +63,38 @@
 
     <section class="wrapper m-3">
         <div id="link-introduction">
-            <h3 class ="p-2">お問い合わせは</h3>
+            <h3 class="p-2">お問い合わせは</h3>
             <p>ITCに加入希望もしくはお問い合わせなどがある場合、こちらに連絡をください。</p>
             <hr class="p-2">
             <dl class="row bg-light">
                 <dt class="col-4">メールアドレス</dt>
-                <dd class="col-8">tusitclub(アットマーク)gmail.com</dd>
+                <dd class="col-8">
+                    <!-- https://www.luft.co.jp/cgi/coding.php を使用 -->
+                    <script type="text/javascript">
+                        function converter(M) {
+                            var str = "", str_as = "";
+                            for (var i = 0; i < M.length; i++) {
+                                str_as = M.charCodeAt(i);
+                                str += String.fromCharCode(str_as + 1);
+                            }
+                            return str;
+                        }
+                        function mail_to(k_1, k_2) {
+                            eval(String.fromCharCode(108, 111, 99, 97, 116, 105, 111, 110, 46, 104, 114, 101, 102, 32,
+                                61, 32, 39, 109, 97, 105, 108, 116, 111, 58)
+                                + escape(k_1) +
+                                converter(String.fromCharCode(115, 116, 114, 104, 115, 98, 107, 116, 97, 63, 102, 108, 96, 104, 107, 45, 98, 110, 108,
+                                    62, 114, 116, 97, 105, 100, 98, 115, 60))
+                                + escape(k_2) + "'");
+                        }
+                        document.write('<a href=JavaScript:mail_to("","")>お問い合わせ用メールアドレス<\/a>');
+
+                    </script>
+
+                    <noscript>
+                        <!-- javascript を無効化している訪問者向けに, メールアドレスの画像を貼るスペース -->
+                    </noscript>
+                </dd>
                 <dt class="col-4">twitterのダイレクトメール</dt>
                 <dd class="col-8"><a href="https://twitter.com/tusitclub_snkn">@tusitclub_snkn</a></dd>
             </dl>
@@ -72,4 +103,5 @@
     <script type="text/javascript">footer('');</script>
 
 </body>
+
 </html>
