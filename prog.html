@@ -26,12 +26,15 @@
     <meta http-equiv="Cache-Control" content="no-cache">
 
     <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!-- jQuery読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- BootstrapのJS読み込み -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/base.css">
     <!-- vue.js-->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
@@ -84,7 +87,7 @@
             <div class="container p-0 my-5">
                 <h3><i class="fas fa-terminal p-2"></i>競技プログラミング</h3>
                 <div class="p-3">
-                    <p>毎週１回<strong>AtCoder</strong>の過去問をバーチャルコンテストで解いていきます。AtCoderの過去問を時間内に解き、タイムや解けた問題数を競っています。</p>
+                    <p>毎週１回<strong>AtCoder</strong>が開催するコンテストに参加し、タイムや解けた問題数を競っています。</p>
                     <p>プログラミングの能力を伸ばすいい機会でもあります。</p>
                     <div class="card card-sdw">
                         <div class="card-body">
@@ -128,59 +131,69 @@
         <!-- 年間予定表-->
         <div id="prog-schedule">
             <div class="container p-0 my-5">
-                <h3><i class="far fa-calendar p-2"></i>Prog年間活動予定</h3>
-            <table class="table table-sm table-borderless table-striped">
-                <tr>
-                    <td>　４月</td>
-                    <td>新入生勧誘期間・初心者へのサポート・部会</td>
-                </tr>
-                <tr>
-                    <td>　５月</td>
-                    <td>部会</td>
-                </tr>
-                <tr>
-                    <td>　６月</td>
-                    <td>部会</td>
-                </tr>
-                <tr>
-                    <td>　７月</td>
-                    <td>部会</td>
-                </tr>
-                <tr>
-                    <td>　８月</td>
-                    <td>夏休み(理大祭・デジゲー博に向けて制作)<br>(夏合宿)</td>
-                </tr>
-                <tr>
-                    <td>　９月</td>
-                    <td>部会</td>
-                </tr>
-                <tr>
-                    <td>１０月</td>
-                    <td>部会</td>
-                </tr>
-                <tr>
-                    <td>１１月</td>
-                    <td>デジゲー博(当選すれば)<br>部会・理大祭</td>
-                </tr>
-                <tr>
-                    <td>１２月</td>
-                    <td>部会</td>
-                </tr>
-                <tr>
-                    <td>　１月</td>
-                    <td>部会</td>
-                </tr>
-                <tr>
-                    <td>　２月</td>
-                    <td>春休み</td>
-                </tr>
-                <tr>
-                    <td>　３月</td>
-                    <td>(春合宿)<br></td>
-                </tr>
-            </table>
+                <h3><i class="far fa-calendar p-2"></i>年間活動予定</h3>
+                <div class="p-3">
+                    <table class="table table-sm table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">月</th>
+                                <th scope="col">活動内容</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                            <tr>
+                                <th scope="row">４月</th>
+                                <td>新歓</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">５月</th>
+                                <td rowspan="2" class="align-middle">初心者講習</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">６月</th>
+                                <!-- <td></td> -->
+                            </tr>
+                            <tr>
+                                <th scope="row">７月</th>
+                                <td rowspan="5" class="align-middle">理大祭に向けたゲーム制作</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">８月</th>
+                                <!-- <td></td> -->
+                            </tr>
+                            <tr>
+                                <th scope="row">９月</th>
+                                <!-- <td></td> -->
+                            </tr>
+                            <tr>
+                                <th scope="row">１０月</th>
+                                <!-- <td></td> -->
+                            </tr>
+                            <tr>
+                                <th scope="row">１１月</th>
+                                <!-- <td></td> -->
+                            </tr>
+                            <tr>
+                                <th scope="row">１２月</th>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">１月</th>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">２月</th>
+                                <td>引継ぎ</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">３月</th>
+                                <td>新歓準備</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-    </div>
     </section>
     <script type="text/javascript">footer('');</script>
 

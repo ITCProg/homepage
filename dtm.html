@@ -26,12 +26,15 @@
     <meta http-equiv="Cache-Control" content="no-cache">
 
     <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!-- jQuery読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- BootstrapのJS読み込み -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/base.css">
     <!-- vue.js-->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
@@ -61,7 +64,8 @@
             <div class="m-2">
                 <section class="my-4">
                     <p>DTMとはDeskTop Musicの略で、DTM部では日々パソコンで楽曲制作をしています。</p>
-                    <p>初心者を対象とした講習会も行っており、はじめのうちは無料でインストールできる<strong>Studio one 6 prime</strong>, <strong>FL studio trial version</strong>などを実演しながら作曲の仕方を教えています。</p>
+                    <p>初心者を対象とした講習会も行っており、はじめのうちは無料でインストールできる<strong>Studio one 6 prime</strong>, <strong>FL studio
+                            trial version</strong>などを実演しながら作曲の仕方を教えています。</p>
                 </section>
                 <section class="my-4">
                     <p>ITC内で制作した曲は<i class="fab fa-soundcloud"></i>Sound
@@ -129,56 +133,66 @@
         <div id="dtm-schedule">
             <div class="container p-0 my-5">
                 <h3><i class="far fa-calendar p-2"></i>DTM年間活動予定</h3>
-                <table class="table table-sm table-borderless table-striped">
-                    <tr>
-                        <td>　４月</td>
-                        <td>新入生勧誘期間・初心者講習会・春M3(～2019)</td>
-                    </tr>
-                    <tr>
-                        <td>　５月</td>
-                        <td>初心者講習会</td>
-                    </tr>
-                    <tr>
-                        <td>　６月</td>
-                        <td>部会</td>
-                    </tr>
-                    <tr>
-                        <td>　７月</td>
-                        <td>部会</td>
-                    </tr>
-                    <tr>
-                        <td>　８月</td>
-                        <td>部会・オンライン合宿</td>
-                    </tr>
-                    <tr>
-                        <td>　９月</td>
-                        <td>部会</td>
-                    </tr>
-                    <tr>
-                        <td>１０月</td>
-                        <td>部会・秋M3(～2019)</td>
-                    </tr>
-                    <tr>
-                        <td>１１月</td>
-                        <td>部会</td>
-                    </tr>
-                    <tr>
-                        <td>１２月</td>
-                        <td>部会</td>
-                    </tr>
-                    <tr>
-                        <td>　１月</td>
-                        <td>部会</td>
-                    </tr>
-                    <tr>
-                        <td>　２月</td>
-                        <td>部会</td>
-                    </tr>
-                    <tr>
-                        <td>　３月</td>
-                        <td>部会</td>
-                    </tr>
-                </table>
+                <div class="p-3">
+                    <table class="table table-sm table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">月</th>
+                                <th scope="col">活動内容</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                            <tr>
+                                <th scope="row">４月</th>
+                                <td>新歓・春M3準備</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">５月</th>
+                                <td rowspan="2" class="align-middle">初心者講習</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">６月</th>
+                                <!-- <td></td> -->
+                            </tr>
+                            <tr>
+                                <th scope="row">７月</th>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">８月</th>
+                                <!-- <td></td> -->
+                            </tr>
+                            <tr>
+                                <th scope="row">９月</th>
+                                <td rowspan="2" class="align-middle">秋M3準備</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">１０月</th>
+                                <!-- <td></td> -->
+                            </tr>
+                            <tr>
+                                <th scope="row">１１月</th>
+                                <td>理大祭準備</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">１２月</th>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">１月</th>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">２月</th>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">３月</th>
+                                <td>引継ぎ・春M3準備</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </section>
