@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
 
     <!-- jQuery読み込み -->
@@ -10,7 +11,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49660611-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-49660611-1');
@@ -37,12 +38,15 @@
     <meta name="twitter:image" content="https://tusitclub.net/images/thumbnail-ritaisai2024.jpg" />
 
     <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!-- jQuery読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- BootstrapのJS読み込み -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/prog-works.css">
     <link rel="stylesheet" href="css/cg-works.css">
@@ -53,12 +57,13 @@
     <!-- font awesome-->
     <script src="https://kit.fontawesome.com/9af312280c.js" crossorigin="anonymous"></script>
     <link rel="icon" href="favicon.ico">
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald&display=swap" rel="stylesheet">
     <title>理大祭2024 - 情報技術クラブ ITC</title>
 
 </head>
+
 <body>
     <div id="top"></div>
     <script type="text/javascript">gotoTop('');</script>
@@ -78,7 +83,7 @@
                     <i class="fas fa-newspaper"></i>
                     が表示されている場合、クリックすると詳しい説明を見ることができます。
                 </p>
-                
+
             </div>
         </div>
     </section>
@@ -87,39 +92,35 @@
         <div id="prog-works" class="container-fluid">
             <h3 class="p-1">Prog部作品</h3>
             <div class="row m-3">
-                <prog-work
-                        v-for="(item,index) in items.ritaisai2024"
-                        v-bind:item='item'
-                        v-bind:index="index"
-                        v-bind:name="'p2020'"
-                        v-bind:isob='isOB'
-                        v-bind:getname='getName'
-                        v-bind:getcolor='getColor'>
+                <prog-work v-for="(item,index) in items.ritaisai2024" v-bind:item='item' v-bind:index="index"
+                    v-bind:name="'p2020'" v-bind:isob='isOB' v-bind:getname='getName' v-bind:getcolor='getColor'>
                 </prog-work>
             </div>
         </div>
     </section>
 
     <section class="wrapper-wide">
-    <!-- 作品を乗せる場所 -->
-    <!-- 1列に4個のレイアウトになっている。(ウィンドウが小さければ1列に2個) rowクラスで一つの列。意図的に列を分けたいならrowクラスを新しく作る-->
-    <!-- 一つのページにたくさんの画像を乗せると読み込み速度が低下します。適宜画像の解像度を下げてください。-->
+        <!-- 作品を乗せる場所 -->
+        <!-- 1列に4個のレイアウトになっている。(ウィンドウが小さければ1列に2個) rowクラスで一つの列。意図的に列を分けたいならrowクラスを新しく作る-->
+        <!-- 一つのページにたくさんの画像を乗せると読み込み速度が低下します。適宜画像の解像度を下げてください。-->
         <div id="cg-works" class="container-fluid">
             <h3 class="p-1">CG部作品</h3>
             <div class="row m-md-3 m-2">
-                <cg-card v-for="(item,index) in items.ritaisai2024" v-bind:item="item" v-bind:name="'other2020'" v-bind:index="index" v-bind:isob="isOB(item.author)"  v-bind:cardtype="getCardType(item.card_type)" ></cg-card>
+                <cg-card v-for="(item,index) in items.ritaisai2024" v-bind:item="item" v-bind:name="'other2020'"
+                    v-bind:index="index" v-bind:isob="isOB(item.author)"
+                    v-bind:cardtype="getCardType(item.card_type)"></cg-card>
             </div>
         </div>
     </section>
-    
-      <section class="wrapper-wide">
+
+    <section class="wrapper-wide">
         <div id="dtm-introduction" class="container-fluid">
             <h3 class="p-1">DTM部作品</h3>
             <table class="table table-sm table-borderless table-striped">
                 <tbody>
                     <div class="row">
                         <div class="col">
-                            <p class="text-center" style="font-size: larger;">EXplosive OR?</p>
+                            <p class="text-center" style="font-size: larger;">ITC vol.20 Explosive-OR</p>
                         </div>
                         <div class="col">
                             <img src="images/dtm/ritaisai2024/M32024_EXplosive_or_jacket-1.png" class="col-5 p-1 m-1">
@@ -128,7 +129,7 @@
                     <hr>
                     <div class="row">
                         <div class="col">
-                            <p class="text-center" style="font-size: larger;">ITC vol.19</p>
+                            <p class="text-center" style="font-size: larger;">ITC vol.19 ΔAWN</p>
                         </div>
                         <div class="col">
                             <img src="images/dtm/ritaisai2024/ITC-19.png" class="col-5 p-1 m-1">
@@ -190,8 +191,8 @@
 
     <script type="text/javascript">footer('');</script>
     <!--作品データから紹介カードを生成-->
-    <script type="text/javascript"  src="src/prog-works.js"></script>
-    <script type="text/javascript"  src="src/cg-works.js"></script> 
+    <script type="text/javascript" src="src/prog-works.js"></script>
+    <script type="text/javascript" src="src/cg-works.js"></script>
     <script type="text/javascript" src="src/dtm-works.js"></script>
     <script type="text/javascript" src="src/mv-works.js"></script>
 </body>
@@ -199,8 +200,10 @@
     .table tbody tr td a {
         word-wrap: anywhere;
     }
+
     #headline {
         margin-top: 50px !important;
     }
 </style>
+
 </html>
