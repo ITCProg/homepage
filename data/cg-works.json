@@ -769,5 +769,16 @@
             "author":"NEMUKE63",
             "card_type":0
         }
+    ],
+    "other_items2024": [
+        
+    ],
+    "other_items2025": [
+        {
+            "year":2025,
+            "imgurl":"images/cg/works/2025/omizu.png",
+            "author":"おみず",
+            "card_type":0
+        }
     ]
 }
