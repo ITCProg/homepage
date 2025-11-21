@@ -51,6 +51,10 @@
         "python":{
             "name":"Python",
             "color":2
+        },
+        "VOICEROID":{
+            "name":"VOICEROID",
+            "color":0
         }
     },
     "item-template":{
@@ -69,6 +73,28 @@
             "上のbadgesから選ぶ"
         ]
     },
+    "ridaisai2025": [
+        {
+            "imgurl": "images/prog/works/ridaisai2025/kiritan_kaiwa_system.jpg",
+            "title": "きりたん会話システム",
+            "author": "イエロー",
+            "captions": [
+            ],
+            "languages": [
+                "python", "VOICEROID"
+            ]
+        },
+        {
+            "imgurl": "images/prog/works/ridaisai2025/rt059_maze_img.png",
+            "title": "鵐頬告鳥if参戦試作ステージ",
+            "author": "RT059",
+            "captions": [
+            ],
+            "languages": [
+                
+            ]
+        }
+    ],
     "ritaisai2024": [
         {
             "imgurl": "images/prog/works/ritaisai2024/Taal_Budou-1.png",
