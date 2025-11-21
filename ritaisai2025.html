@@ -92,7 +92,7 @@
         <div id="prog-works" class="container-fluid">
             <h3 class="p-1">Prog部作品</h3>
             <div class="row m-3">
-                <prog-work v-for="(item,index) in items.ritaisai2025" v-bind:item='item' v-bind:index="index"
+                <prog-work v-for="(item,index) in items.ridaisai2025" v-bind:item='item' v-bind:index="index"
                     v-bind:name="'p2020'" v-bind:isob='isOB' v-bind:getname='getName' v-bind:getcolor='getColor'>
                 </prog-work>
             </div>
@@ -106,7 +106,7 @@
         <div id="cg-works" class="container-fluid">
             <h3 class="p-1">CG部作品</h3>
             <div class="row m-md-3 m-2">
-                <cg-card v-for="(item,index) in items.ritaisai2025" v-bind:item="item" v-bind:name="'other2020'"
+                <cg-card v-for="(item,index) in items.ridaisai2025" v-bind:item="item" v-bind:name="'other2020'"
                     v-bind:index="index" v-bind:isob="isOB(item.author)"
                     v-bind:cardtype="getCardType(item.card_type)"></cg-card>
             </div>
@@ -155,10 +155,8 @@
             <div id="link-introduction">
                 <h3 class="p-1">MV部作品</h3>
             </div>
-            紹介動画
-
             <div class="row justify-content-around my-4 m-2">
-                <mv-work v-for="(item, index) in items.ritaisai2025" :item="item" :index="index"></mv-work>
+                <mv-work v-for="(item, index) in items.ridaisai2025" :item="item" :index="index"></mv-work>
             </div>
 
         </div>
