@@ -34,7 +34,76 @@
         "Euk",
         "とりにく",
         "からびな",
-        "lambda"
+        "lambda",
+        "Cay",
+        "白茶",
+        "Rutumn",
+        "NEMUKE63",
+        "じょう",
+        "NigoRY",
+        "コウ",
+        "Blue Musk",
+        "しょうへい",
+        "シュレー",
+        "マミカズ",
+        "syll",
+        "ヤグ",
+        "下手",
+        "ナモナキ",
+        "HYT/yama",
+        "Tomoki",
+        "batu",
+        "RM",
+        "ひろりん",
+        "へた",
+        "爬虫類",
+        "にごりい",
+        "こ.",
+        "kino"
+    ],
+    "ritaisai2025": [
+        {
+            "year": 2025,
+            "imgurl": "images/cg/works/ridaisai2025/おみず.png",
+            "author": "おみず",
+            "card_type": 0
+        },
+        {
+            "year": 2025,
+            "imgurl": "images/cg/works/ridaisai2025/komano04.jpg",
+            "author": "komano04",
+            "card_type": 0
+        },
+        {
+            "year": 2025,
+            "imgurl": "images/cg/works/ridaisai2025/理大祭2025_展示_KASASATA_01.jpeg",
+            "author": "KASASATA",
+            "card_type": 0
+        },
+        {
+            "year": 2025,
+            "imgurl": "images/cg/works/ridaisai2025/理大祭2025_展示_RAI_01.jpeg",
+            "author": "RAI",
+            "card_type": 0
+        },
+        {
+            "year": 2025,
+            "imgurl": "images/cg/works/ridaisai2025/理大祭2025_展示_いくらサーモン丼_01.jpeg",
+            "author": "いくらサーモン丼",
+            "card_type": 0
+        },
+        {
+            "year": 2025,
+            "imgurl": "images/cg/works/ridaisai2025/理大祭2025_展示_いくらサーモン丼_02.jpeg",
+            "author": "いくらサーモン丼",
+            "card_type": 0
+        },
+        {
+            "year": 2025,
+            "imgurl": "images/cg/works/ridaisai2025/理大祭2025_展示_Schroer_01.jpeg",
+            "author": "Schroer",
+            "card_type": 0
+        }
     ],
     "ritaisai2024": [
         {
