@@ -26,12 +26,15 @@
     <meta http-equiv="Cache-Control" content="no-cache">
 
     <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!-- jQuery読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- BootstrapのJS読み込み -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
     <!-- vue.js-->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -61,13 +64,19 @@
     <section class="wrapper my-5">
         <div id="movie-introduction">
             <h2>MV部作品集</h2>
-                <p>部員が創作した作品をまとめています。</p>
-                <p>ぜひ見ていってください！</p>
+            <p>部員が創作した作品をまとめています。</p>
+            <p>ぜひ見ていってください！</p>
         </div>
     </section>
 
     <section class="wrapper-wide">
         <div id="mv-works">
+            <h3 class="m-1">2024年度</h3>
+            <div class="row justify-content-around">
+                <mv-work class="my-4" v-for="(item, index) in items.ritaisai2024" :item="item" :index="index">
+                </mv-work>
+            </div>
+
             <h3 class="m-1">2023年度</h3>
             <div class="row justify-content-around">
                 <mv-work class="my-4" v-for="(item, index) in items.ritaisai2023" :item="item" :index="index">
@@ -86,9 +95,9 @@
                 </mv-work>
             </div>
 
-            
 
-            
+
+
 
             <!--　##追加したいときは、以下のテンプレートを使用してください 
                 <h3 class="m-1">〇〇年度</h3>
