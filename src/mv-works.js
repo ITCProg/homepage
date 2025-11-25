@@ -33,7 +33,27 @@
         mounted: function () {
             var self = this;
             axios.get("data/mv-works.json").then(response => {
-                self.items = response.data;
+                var data = response.data;
+                var ob_list = data.ob_list;
+                if (ob_list) {
+                    for (var key in data) {
+                        if (key !== "ob_list" && Array.isArray(data[key])) {
+                            data[key].forEach(item => {
+                                if (item.authors) {
+                                    item.authors = item.authors.map(author => {
+                                        return ob_list.includes(author) ? author + "(OB)" : author;
+                                    });
+                                }
+                                if (item.subauthors) {
+                                    item.subauthors = item.subauthors.map(author => {
+                                        return ob_list.includes(author) ? author + "(OB)" : author;
+                                    });
+                                }
+                            });
+                        }
+                    }
+                }
+                self.items = data;
             }).catch(error => {
                 console.log(error);
             });
