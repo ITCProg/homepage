@@ -106,7 +106,7 @@
         <div id="cg-works" class="container-fluid">
             <h3 class="p-1">CG部作品</h3>
             <div class="row m-md-3 m-2">
-                <cg-card v-for="(item,index) in items.ridaisai2025" v-bind:item="item" v-bind:name="'other2020'"
+                <cg-card v-for="(item,index) in items.ritaisai2025" v-bind:item="item" v-bind:name="'other2020'"
                     v-bind:index="index" v-bind:isob="isOB(item.author)"
                     v-bind:cardtype="getCardType(item.card_type)"></cg-card>
             </div>
@@ -118,33 +118,16 @@
             <h3 class="p-1">DTM部作品</h3>
             <table class="table table-sm table-borderless table-striped">
                 <tbody>
-                    <!-- <div class="row">
-                        <div class="col">
-                            <p class="text-center" style="font-size: larger;">EXplosive OR?</p>
-                        </div>
-                        <div class="col">
-                            <img src="images/dtm/ritaisai2025/M32025_EXplosive_or_jacket-1.png" class="col-5 p-1 m-1">
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-center" style="font-size: larger;">ITC vol.19</p>
-                        </div>
-                        <div class="col">
-                            <img src="images/dtm/ritaisai2025/ITC-19.png" class="col-5 p-1 m-1">
-                        </div>
-                    </div> -->
-                    <!--
-                    <template v-for="item in items.ritaisai2024">
+                    <template v-for="item in items.ridaisai2025">
                         <tr>
                             <td class="align-middle">
                                 <h4>{{item.title}}</h4>
                             </td>
-                            <td><div v-html="item.embed"></div></td>
+                            <td>
+                                <div v-html="item.embed"></div>
+                            </td>
                         </tr>
                     </template>
-                    -->
                 </tbody>
             </table>
 
