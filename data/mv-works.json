@@ -1,7 +1,7 @@
 
 {
 	"ob_list":[
-		""
+		"照井", "remoon", "おるざと", "xeam", "signum", "Yuhgao", "Tomoki", "Cay", "つかっちゃん", "NEMUKE63", "haruki/おるざと", "アズマ・ルーク", "ゆうがお", "イラスト：せりぜ", "hexatropica."
 	],
 	"item-template":{
         "embed":"youtubeの共有→埋め込みからコピーし、ダブルクォーテーションをシングルクオーテーションに変換したものを貼り付けてください",
@@ -46,6 +46,34 @@
 			"authors":[
 				"りょー"
 			]
+		}, 
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/-MaVayhompE?si=nFPVIxngnez9diAG' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
+			"title": "【XFD】ARTCORE:電燈",
+			"authors":[
+				"RINNE/DTM部"
+			]
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/MYQUKjBvyUs?si=G6M_S8_ksZV6xM26' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
+			"title": "【XFD】ITC vol.22 Album \"Aurøra\"",
+			"authors":[
+				"RINNE/DTM部"
+			]
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/fUzImCdZlGU?si=5yvuviryx4U5ac8U' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
+			"title": "【MV】結局僕らはボーカロイド/RINNE Feat. 初音ミク・鏡音リン・鏡音レン",
+			"authors":[
+				"RINNE"
+			]
+		},
+		{
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/agibZc3Idkk?si=ueSeHl1SrM6pnApW' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
+			"title": "この街には feat 知声",
+			"authors":[
+				"ユージ"
+			]
 		}
 	],
 	"ritaisai2024": [
@@ -83,7 +111,7 @@
 			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/2SfMeO1IslA?si=mT4lX7neuF4EEQ-U' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
 			"title": "美ヶ原高原-2023初夏",
 			"authors":[
-				"tomoki"
+				"Tomoki"
 			]
 		},
 		{
@@ -129,14 +157,14 @@
 				"NEMUKE63"
 			],
 			"subauthors": [
-				"XEAM"
+				"xeam"
 			]
 		},
 		{
 			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/-h1dIhDkb0M' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 			"title": "The Last One",
 			"authors": [
-				"XEAM"
+				"xeam"
 			]
 		},
 		{
@@ -150,7 +178,7 @@
 			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/EQv0isHI4pM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 			"title": "[410]:The Long Odyssey",
 			"authors": [
-				"yuhgao"
+				"Yuhgao"
 			]
 		},
 		{
