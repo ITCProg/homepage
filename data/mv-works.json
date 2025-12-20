@@ -34,20 +34,6 @@
 			]
 		},
 		{
-			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/_yt9F19bTYQ?si=bqy9-SeYOAuIyOOR' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
-			"title": "スマブラロゴ風演出",
-			"authors":[
-				"りょー"
-			]
-		},
-		{
-			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/jLnQyOdUeDM?si=VI8l65rQiwLBi41X' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
-			"title": "スマブラ参戦風動画",
-			"authors":[
-				"りょー"
-			]
-		}, 
-		{
 			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/-MaVayhompE?si=nFPVIxngnez9diAG' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
 			"title": "【XFD】ARTCORE:電燈",
 			"authors":[
@@ -92,10 +78,10 @@
 			]
 		},
 		{
-			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/ac1j-nDgQJ0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
-			"title": "sakuhin",
+			"embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/qnQn47ERQMU' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+			"title": "リキッドアニメーション",
 			"authors":[
-				"りょー"
+				"YORROY"
 			]
 		}
 	],
