@@ -350,7 +350,8 @@
                     <h2 class="m-0"><i class="fas fa-landmark p-2"></i>History</h2>
                 </div>
                 <div class="m-3">
-                    <p>ITCは東京理科大学葛飾キャンパスができた年から活動を続けており、2025年度で<strong>13年目</strong>になります。</p>
+                    <p>ITCは東京理科大学葛飾キャンパスができた年から活動を続けており、<span id="itc-current-year">2026</span>年度で<strong><span
+                                id="itc-activity-year">14</span>年目</strong>になります。</p>
                     <p>現在DiscordにはOB,OG含めて<strong>100人以上</strong>のメンバーがいます。</p>
                     <p>これからもよろしくお願いします！</p>
                 </div>
@@ -390,20 +391,40 @@
                 </template>
             </div><!-- /#accordion -->
 
-            <!-- <div class="card my-3">
+            <div class="card my-3">
                 <h5 class="card-header acccordion-hed text-white">
-                    その他質問があれば新入生向けLINEオープンチャットへどうぞ
+                    その他質問等あればマシュマロへどうぞ！
                 </h5>
                 <div class="card-body text-center">
-                    <p class="card-text">LINEオープンチャットへ</p>
+                    <p class="card-text">マシュマロへ</p>
                     <div class="m-2">
-                        <img src="images/qrCode-line.jpg" alt="LINEオープンチャット QRコード" class="img-fluid">
+                        <img src="images/qr-mashumaro.png" alt="マシュマロ QRコード" class="img-fluid">
                     </div>
                 </div>
-            </div> -->
+            </div>
 
         </div>
     </section>
+    <script type="text/javascript">
+        // ITCの活動年数を自動で計算して表示するスクリプト
+        // 2013年を基準にしている
+        // js無効ユーザのために、html側でも一応修正しておくこと
+        (function () {
+            const itcStartYear = 2013;
+            const currentYear = new Date().getFullYear();
+            const activityYear = currentYear - itcStartYear + 1;
+
+            const currentYearElement = document.getElementById('itc-current-year');
+            const activityYearElement = document.getElementById('itc-activity-year');
+
+            if (currentYearElement) {
+                currentYearElement.textContent = currentYear;
+            }
+            if (activityYearElement) {
+                activityYearElement.textContent = activityYear;
+            }
+        })();
+    </script>
     <script type="text/javascript">footer('');</script>
     <script type="text/javascript" src="src/home-qna.js"></script>
 
